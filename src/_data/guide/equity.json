@@ -19,7 +19,7 @@
           "source": "",
           "date": "2021 (updated 2024)",
           "tags": [],
-          "description": "WHO's framework for AI in health. Six guiding principles including equity, inclusiveness, and transparency. Addresses LMIC contexts and data sovereignty.",
+          "description": "WHO's framework for AI in health. Six guiding principles including equity, inclusiveness, and transparency, with specific attention to LMICs and data sovereignty.",
           "note": null
         },
         {
@@ -55,7 +55,7 @@
           "source": "",
           "date": "March 2025",
           "tags": [],
-          "description": "Commission on AI applications for HIV prevention, treatment, and surveillance in resource-limited settings. Maps gaps between AI capability and health system readiness.",
+          "description": "AI applications for HIV prevention, treatment, and surveillance in resource-limited settings. Documents where AI capability outpaces health system readiness.",
           "note": null
         },
         {
@@ -85,7 +85,7 @@
           "source": "",
           "date": "2025",
           "tags": [],
-          "description": "Maps health data extraction from Kenya, Rwanda, and Uganda. Data partnership agreements give US/European institutions access to African health data with minimal reciprocal benefit.",
+          "description": "Health data extraction from Kenya, Rwanda, and Uganda. Partnership agreements give US/European institutions access with minimal reciprocal benefit.",
           "note": null
         },
         {
@@ -95,7 +95,7 @@
           "source": "",
           "date": "2024",
           "tags": [],
-          "description": "WHO guidance on large language models and multimodal AI in health. Addresses the gap between model performance in English and other languages.",
+          "description": "WHO guidance on large language models and multimodal AI in health. Model performance drops sharply outside English.",
           "note": null
         },
         {
@@ -125,7 +125,7 @@
           "source": "",
           "date": "",
           "tags": [],
-          "description": "Includes the VectorCam project: AI-powered mosquito species identification trained on images collected in LMIC field conditions. An example of AI developed in context rather than transferred into it.",
+          "description": "Includes VectorCam: AI mosquito species identification trained on images from LMIC field conditions – built where it's used.",
           "note": null
         },
         {
@@ -181,7 +181,7 @@
           "source": "Stanford University Press",
           "date": "2019",
           "tags": [],
-          "description": "Book on data colonialism. When health data from LMIC populations trains AI models owned by companies in high-income countries, the pattern mirrors historical resource extraction.",
+          "description": "Data colonialism as analytical framework. Health data from LMIC populations training models owned by high-income-country companies follows historical resource extraction patterns.",
           "note": null
         },
         {
@@ -191,7 +191,7 @@
           "source": "",
           "date": "2024",
           "tags": [],
-          "description": "Overview of AI applications in global health: diagnostic tools, surveillance, and health system strengthening, alongside limitations when tools from high-resource settings are deployed elsewhere.",
+          "description": "AI in global health: diagnostic tools, surveillance, health system strengthening. Performance degrades when tools built in high-resource settings are deployed elsewhere.",
           "note": null
         },
         {
@@ -201,7 +201,7 @@
           "source": "",
           "date": "2023",
           "tags": [],
-          "description": "When participant data is processed by AI tools – even for analysis – does the original informed consent cover that use? An active ethical question with no settled answer.",
+          "description": "When participant data is processed by AI tools – even for analysis – does the original informed consent cover that use? No settled answer.",
           "note": null
         },
         {
@@ -211,7 +211,7 @@
           "source": "",
           "date": "2024",
           "tags": [],
-          "description": "Training a single large AI model can consume as much water as a small town uses in a year. Energy costs are substantial.",
+          "description": "Training a single large AI model can consume as much water as a small town uses in a year.",
           "note": null
         },
         {
@@ -221,7 +221,7 @@
           "source": "",
           "date": "2026",
           "tags": [],
-          "description": "Scoping review of 30 studies on deploying AI in LMICs. Successful deployment depends less on algorithmic sophistication and more on stable systems, trustworthy data, and empowered professionals.",
+          "description": "30 studies on deploying AI in LMICs. What matters most: stable systems, trustworthy data, and empowered professionals.",
           "note": null
         }
       ]

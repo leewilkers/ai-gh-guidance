@@ -45,7 +45,7 @@
           "source": "",
           "date": "",
           "tags": [],
-          "description": "AI governance and privacy resources covering GDPR implications, data protection impact assessments, and cross-border data transfer issues.",
+          "description": "AI governance and privacy: GDPR implications, data protection impact assessments, cross-border data transfer.",
           "note": null
         },
         {
@@ -75,7 +75,7 @@
           "source": "HRPP/IRB",
           "date": "January 2026",
           "tags": [],
-          "description": "Consent language templates for research involving AI tools. Addresses how to inform participants when AI may process their data during analysis.",
+          "description": "Consent language templates for research involving AI tools. Sample language for informing participants about AI processing.",
           "note": null
         },
         {
@@ -85,7 +85,7 @@
           "source": "",
           "date": "April 2025",
           "tags": [],
-          "description": "Traditional consent assumes specific, bounded data uses. AI processing is neither – data can enter training sets permanently. Examines how legal and ethical frameworks are adapting.",
+          "description": "Traditional consent assumes specific, bounded data uses. AI processing is neither – data can enter training sets permanently.",
           "note": null
         }
       ]
@@ -121,7 +121,7 @@
           "source": "",
           "date": "2025",
           "tags": [],
-          "description": "AI incorporates training data into all future predictions, making consent effectively irrevocable once data enters a model's training set. Examines the withdrawal-of-consent problem.",
+          "description": "Once data enters a training set, consent is effectively irrevocable – data shapes all future predictions. No established mechanism for withdrawal.",
           "note": null
         },
         {
@@ -131,7 +131,7 @@
           "source": "",
           "date": "",
           "tags": [],
-          "description": "Technical overview of how AI systems handle data: training data vs. inference data, data retention, and the mechanisms behind privacy commitments.",
+          "description": "How AI systems handle data: training vs. inference, data retention, and what privacy commitments actually mean technically.",
           "note": null
         }
       ]

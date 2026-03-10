@@ -36,7 +36,7 @@
           "source": "Cambridge University Press",
           "date": "2025",
           "tags": [],
-          "description": "98% of AI research originates from wealthy institutions. Maps the structural inequality in AI development, not just deployment."
+          "description": "98% of AI research originates from wealthy institutions. The inequality is in development, not just deployment."
         },
         {
           "title": "Africa Declares AI Strategic Priority",
@@ -63,7 +63,7 @@
           "source": "Policy Center for the New South",
           "date": "October 2025",
           "tags": [],
-          "description": "Maps infrastructure dependencies: undersea cables financed by tech giants, cloud services concentrated in a few companies, training data flowing out of the continent."
+          "description": "Infrastructure dependencies: undersea cables financed by tech giants, cloud services concentrated in a few companies, training data flowing out of the continent."
         },
         {
           "title": "Data Colonialism and the Emerging Voice of the Global South",
@@ -90,7 +90,7 @@
           "source": "Stanford University Press",
           "date": "2020",
           "tags": [],
-          "description": "Academic treatment of data colonialism as an analytical framework. The framework has become standard vocabulary for understanding AI adoption in contexts of structural inequality."
+          "description": "Data colonialism as analytical framework. Now standard vocabulary for AI adoption in contexts of structural inequality."
         }
       ]
     }

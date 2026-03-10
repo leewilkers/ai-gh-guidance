@@ -4,7 +4,7 @@
     "number": 1,
     "title": "Getting started",
     "subtitle": "",
-    "intro": "LLMs (ChatGPT, Claude, Gemini) generate fluent text and fabricate facts with equal confidence. Orientation for first-time users.",
+    "intro": "LLMs (ChatGPT, Claude, Gemini) generate fluent text and fabricate facts with equal confidence.",
     "keyQuestion": ""
   },
   "tiers": [
@@ -19,7 +19,7 @@
           "source": "One Useful Thing",
           "date": "February 2026",
           "tags": [],
-          "description": "Decision framework for choosing which AI tool, interface, and level of automation to use for different tasks. Covers models, apps, and harnesses.",
+          "description": "How to choose which AI tool, interface, and level of automation for different tasks.",
           "note": null
         },
         {
@@ -45,7 +45,7 @@
           "source": "One Useful Thing",
           "date": "December 2025",
           "tags": [],
-          "description": "Maps where AI capability is advancing, where it's stuck, and why the boundary between what AI does well and what it doesn't remains uneven.",
+          "description": "Where AI capability is advancing, where it's stuck, and why the boundary stays uneven.",
           "note": null
         },
         {
@@ -55,7 +55,7 @@
           "source": "One Useful Thing",
           "date": "",
           "tags": [],
-          "description": "AI with internet access, code execution, and file analysis. Practical examples of expanded capabilities beyond basic chat.",
+          "description": "AI with internet access, code execution, and file analysis. What changes when the tools connect to the real world.",
           "note": null
         }
       ]
@@ -71,7 +71,7 @@
           "source": "Portfolio/Penguin",
           "date": "2024",
           "tags": [],
-          "description": "Book-length treatment of working alongside AI. Covers creativity, education, and organizational change.",
+          "description": "Working alongside AI – creativity, education, and organizational change.",
           "note": null
         }
       ]

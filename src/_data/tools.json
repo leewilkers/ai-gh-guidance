@@ -4,7 +4,7 @@
     "number": "",
     "title": "Tool index",
     "subtitle": "",
-    "intro": "AI tools for research, writing, meetings, and field work. Organized from everyday to technical – start where you are."
+    "intro": "AI tools for research, writing, meetings, and field work. Organized from everyday to technical."
   },
   "tiers": [
     {
@@ -28,7 +28,7 @@
           "source": "Anthropic",
           "date": "",
           "tags": [],
-          "description": "General-purpose LLM. 200K token context window, strong at analysis, summarization, and writing. Pro tier does not use inputs for training.",
+          "description": "General-purpose LLM. Strong at analysis, summarization, and writing. Pro tier does not use inputs for training.",
           "note": "Best at: long document analysis, careful reasoning, writing that needs nuance."
         },
         {
@@ -55,7 +55,7 @@
           "date": "",
           "tags": [],
           "description": "AI research assistant. Searches 138 million indexed papers, extracts data across studies, supports systematic review workflows.",
-          "note": "The best dedicated tool for literature work right now. I use it for every review."
+          "note": "I use it for every review."
         },
         {
           "title": "Semantic Scholar",
@@ -93,6 +93,16 @@
           "date": "",
           "tags": [],
           "description": "Visual citation mapping. Start with seed papers, find related work that keyword search misses. Free."
+        },
+        {
+          "title": "Perplexity",
+          "url": "https://www.perplexity.ai",
+          "author": "",
+          "source": "Perplexity AI",
+          "date": "",
+          "tags": [],
+          "description": "AI search engine with academic mode and Deep Research. Produces cited responses. Verify citations against primary sources – fabrication still happens.",
+          "note": "Useful for quick literature scans. Has faced criticism over content scraping, but now has publisher licensing deals."
         },
         {
           "title": "scite.ai",
@@ -218,9 +228,6 @@
       ]
     }
   ],
-  "callout": {
-    "title": "Not listed: Perplexity",
-    "body": "Perplexity is widely used but excluded here due to ongoing concerns about content scraping and publisher relations."
-  },
+  "callout": null,
   "warningCallout": null
 }

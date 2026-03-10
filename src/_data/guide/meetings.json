@@ -4,7 +4,7 @@
     "number": 2,
     "title": "Meetings and recording",
     "subtitle": "",
-    "intro": "AI meeting tools now record through laptop microphones with no visible indicator. Tools, consent requirements, and what organizations need to decide.",
+    "intro": "AI meeting tools now record through laptop microphones with no visible indicator to other participants.",
     "keyQuestion": ""
   },
   "tiers": [
@@ -39,7 +39,7 @@
           "source": "",
           "date": "2024",
           "tags": [],
-          "description": "Institutional policy addressing consent, data retention, and meeting types where AI notetakers should not be used. Usable as a template.",
+          "description": "Fordham's policy on consent, data retention, and meeting types where AI notetakers are off-limits. Usable as a template.",
           "note": null
         }
       ]
@@ -55,7 +55,7 @@
           "source": "",
           "date": "November 2025",
           "tags": [],
-          "description": "Research on how patients alter behavior when AI records clinical encounters. Participants spoke differently, disclosed less, and filtered sensitive information.",
+          "description": "Patients spoke differently, disclosed less, and filtered sensitive information when AI recorded clinical encounters.",
           "note": null
         },
         {
@@ -85,7 +85,7 @@
           "source": "",
           "date": "November 2025",
           "tags": [],
-          "description": "Organizations that center employees in AI adoption decisions are 7x more effective than those that mandate top-down.",
+          "description": "Employee input in AI adoption decisions makes organizations 7x more effective than top-down mandates.",
           "note": null
         },
         {
@@ -111,7 +111,7 @@
           "source": "",
           "date": "September 2024",
           "tags": [],
-          "description": "Advisory committee recommendations on how AI tools intersect with human subjects protections.",
+          "description": "Federal recommendations on AI tools and human subjects protections.",
           "note": "SACHRP was terminated in March 2025 as part of HHS restructuring (82,000 to 62,000 staff). The recommendations remain substantively relevant, but the institutional mechanism for updating federal AI guidance in research is gone."
         },
         {

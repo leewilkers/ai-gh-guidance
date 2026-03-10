@@ -4,7 +4,7 @@
     "number": "III",
     "title": "Ethics and governance",
     "subtitle": "",
-    "intro": "AI ethics frameworks, governance gaps, and the distance between published principles and actual implementation."
+    "intro": "AI ethics frameworks, governance gaps, and how far published principles are from actual implementation."
   },
   "tiers": [
     {
@@ -18,7 +18,7 @@
           "source": "Lancet Public Health",
           "date": "May 2025",
           "tags": [],
-          "description": "Policy-facing agenda from European Observatory and WHO. Maps the gap between AI capability and the public health infrastructure needed to use it."
+          "description": "European Observatory and WHO agenda. Documents the gap between AI capability and the public health infrastructure needed to use it."
         },
         {
           "title": "Informed Consent, Redefined",
@@ -27,7 +27,7 @@
           "source": "Harvard Petrie-Flom Center",
           "date": "April 2025",
           "tags": [],
-          "description": "Traditional informed consent assumes specific, bounded uses of data. AI processing is neither. Examines how legal and ethical consent frameworks are mismatched with AI data practices."
+          "description": "Traditional informed consent assumes specific, bounded data uses. AI processing is neither. Legal and ethical frameworks haven't caught up."
         },
         {
           "title": "Environmental Impact of AI Servers",
@@ -54,7 +54,7 @@
           "source": "International Labour Organization",
           "date": "2025",
           "tags": [],
-          "description": "Global review of ethics guidelines for AI in employment. Maps the gap between principle and practice across jurisdictions."
+          "description": "Ethics guidelines for AI in employment across jurisdictions. Documents where principle and practice diverge."
         },
         {
           "title": "HealthAI: The Global Agency for Responsible AI in Health",
@@ -99,7 +99,7 @@
           "source": "Frontiers in Public Health",
           "date": "2025",
           "tags": [],
-          "description": "Systematic review of 67 studies on AI in outbreak early warning systems. Covers ML, NLP, and deep learning approaches. Key challenges: data quality, model transparency, and ethical considerations around privacy and equity."
+          "description": "67 studies on AI in outbreak early warning systems. ML, NLP, and deep learning approaches. Persistent challenges: data quality, model transparency, privacy, and equity."
         },
         {
           "title": "Ethical Issues Raised by AI and Big Data in Population Health",

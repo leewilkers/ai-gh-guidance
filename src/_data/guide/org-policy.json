@@ -4,7 +4,7 @@
     "number": 8,
     "title": "Organizational policy",
     "subtitle": "",
-    "intro": "Policy templates, governance frameworks, and readiness assessments for organizations adopting AI tools.",
+    "intro": "Policy templates, readiness assessments, and governance models for organizations making decisions about AI.",
     "keyQuestion": ""
   },
   "tiers": [
@@ -29,7 +29,7 @@
           "source": "",
           "date": "2024",
           "tags": [],
-          "description": "Framework for assessing organizational readiness across culture, capacity, and governance.",
+          "description": "Organizational readiness assessment: culture, capacity, and governance.",
           "note": null
         },
         {
@@ -55,7 +55,7 @@
           "source": "",
           "date": "2025",
           "tags": [],
-          "description": "Identifies four tensions of agentic AI adoption: delegation vs. control, speed vs. oversight, capability vs. trust, individual vs. institutional.",
+          "description": "Four tensions of agentic AI adoption: delegation vs. control, speed vs. oversight, capability vs. trust, individual vs. institutional.",
           "note": null
         },
         {
@@ -75,7 +75,7 @@
           "source": "",
           "date": "",
           "tags": [],
-          "description": "WHO's governance principles for AI in health. Useful for connecting AI policy to existing ethical commitments.",
+          "description": "WHO's governance principles for AI in health.",
           "note": null
         },
         {
@@ -85,7 +85,7 @@
           "source": "Geneva",
           "date": "",
           "tags": [],
-          "description": "Governance resources for health-sector organizations. Covers concerns specific to organizations handling health data and working with vulnerable populations. See also Section 7.",
+          "description": "Governance resources for health organizations handling health data and working with vulnerable populations. See also Section 7.",
           "note": null
         },
         {
@@ -95,7 +95,7 @@
           "source": "",
           "date": "2019",
           "tags": [],
-          "description": "Framework for designing autonomous and intelligent systems that prioritize human well-being. Rooted in engineering ethics.",
+          "description": "Design principles for autonomous and intelligent systems that prioritize human well-being. Engineering ethics tradition.",
           "note": null
         },
         {
@@ -141,7 +141,7 @@
           "source": "",
           "date": "2024",
           "tags": [],
-          "description": "Conservative institutional AI policy. Instructive for seeing where a major institution drew its lines.",
+          "description": "Conservative institutional AI policy. Shows where a major institution drew its lines.",
           "note": null
         },
         {
