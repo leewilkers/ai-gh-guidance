@@ -1,0 +1,66 @@
+{
+  "heading": "What AI can do right now",
+  "subheading": "Not predictions. Not demos. These are shipping products.",
+  "items": [
+    {
+      "label": "Clone your voice from a few seconds of audio",
+      "url": "https://elevenlabs.io/voice-cloning",
+      "source": "ElevenLabs",
+      "category": "media"
+    },
+    {
+      "label": "Generate photorealistic video from a text description",
+      "url": "https://openai.com/sora",
+      "source": "Sora / OpenAI",
+      "category": "media"
+    },
+    {
+      "label": "Build a slide deck from a single paragraph",
+      "url": "https://gamma.app",
+      "source": "Gamma",
+      "category": "productivity"
+    },
+    {
+      "label": "Operate your computer — clicking, typing, navigating — autonomously",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "source": "Claude / Anthropic",
+      "category": "agents"
+    },
+    {
+      "label": "Purchase anyone's home address, phone number, and employer for under $1",
+      "url": "https://www.nytimes.com/2024/03/20/technology/personaltech/data-brokers-opt-out.html",
+      "source": "NYT on data brokers",
+      "category": "privacy"
+    },
+    {
+      "label": "Predict a protein's 3D structure from its amino acid sequence",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source": "AlphaFold 3 / Nature",
+      "category": "science"
+    },
+    {
+      "label": "Translate a live conversation across languages in real time",
+      "url": "https://ai.meta.com/research/seamless-communication/",
+      "source": "Meta SeamlessM4T",
+      "category": "language"
+    },
+    {
+      "label": "Write, test, and deploy working software from a description",
+      "url": "https://www.anthropic.com/news/claude-code",
+      "source": "Claude Code / Anthropic",
+      "category": "code"
+    },
+    {
+      "label": "Control a humanoid robot with language instructions",
+      "url": "https://www.figure.ai",
+      "source": "Figure AI",
+      "category": "robotics"
+    },
+    {
+      "label": "Identify a stranger's name and history from a photo",
+      "url": "https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html",
+      "source": "NYT on Clearview AI",
+      "category": "privacy"
+    }
+  ]
+}

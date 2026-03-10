@@ -1,0 +1,162 @@
+{
+  "section": {
+    "id": "work-life",
+    "number": 6,
+    "title": "AI and work",
+    "subtitle": "",
+    "intro": "How AI changes professional work – which tasks get easier, which get harder, and what organizations should do about it.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "Management as AI Superpower",
+          "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Argues that working with AI agents requires management skills, not prompt engineering. Delegating, reviewing output, providing context, catching errors – the skills of a good manager.",
+          "note": null
+        },
+        {
+          "title": "Why AI at Work Makes Us So Anxious",
+          "url": "https://hbr.org/2025/10/why-ai-at-work-makes-us-so-anxious",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "October 2025",
+          "tags": [],
+          "description": "Addresses why the pace of AI change creates genuine distress even among people technically capable of adapting.",
+          "note": null
+        },
+        {
+          "title": "On Holding Back the Strange Grief of AI",
+          "url": "https://www.oneusefulthing.org/p/on-holding-back-the-strange-grief",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "",
+          "tags": [],
+          "description": "On the experience of watching a machine do well at something a person has spent years getting good at.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "Why Gen AI Feels So Threatening to Workers",
+          "url": "https://hbr.org/2026/03/why-gen-ai-feels-so-threatening-to-workers",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "March 2026",
+          "tags": [],
+          "description": "Identifies three threats beyond job loss: competence (AI approximates expert output), autonomy (decisions shift to systems workers don't control), and belonging (team identity shifts when core tasks change).",
+          "note": null
+        },
+        {
+          "title": "AI Doesn't Reduce Work – It Intensifies It",
+          "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "February 2026",
+          "tags": [],
+          "description": "AI raised the baseline of expected output. Instead of fewer hours, more deliverables at higher velocity, without corresponding changes to expectations or staffing.",
+          "note": null
+        },
+        {
+          "title": "How Do Workers Develop Good Judgment in the AI Era?",
+          "url": "https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "February 2026",
+          "tags": [],
+          "description": "Senior professionals can evaluate AI output; junior staff can't yet. Examines how people build expertise if AI completes the tasks that develop judgment.",
+          "note": null
+        },
+        {
+          "title": "The Anthropic Economic Index",
+          "url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+          "author": "Anthropic",
+          "source": "",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Analysis of how Claude is actually used. Finds a net deskilling pattern: AI covers higher-education tasks first, not manual labor. Workers with advanced degrees doing knowledge work are most affected.",
+          "note": null
+        },
+        {
+          "title": "Co-Intelligence: Living and Working with AI",
+          "url": "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
+          "author": "Ethan Mollick",
+          "source": "Portfolio/Penguin",
+          "date": "2024",
+          "tags": [],
+          "description": "Book-length treatment of working alongside AI. Covers creativity, education, and organizational change.",
+          "note": null
+        },
+        {
+          "title": "Centaurs and Cyborgs on the Jagged Frontier",
+          "url": "https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "2023",
+          "tags": [],
+          "description": "Based on a BCG study: AI makes some tasks dramatically easier and others worse. The \"jagged frontier\" is the uneven boundary between what AI does well and what it doesn't.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "Artificial Intelligence and the Health Workforce",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/11/artificial-intelligence-and-the-health-workforce_c8e4433d/9a31d8af-en.pdf",
+          "author": "OECD",
+          "source": "",
+          "date": "November 2024",
+          "tags": [],
+          "description": "Analysis of AI's impact on health sector employment across OECD countries. Covers skill shifts, training needs, and the gap between AI capability and workforce readiness.",
+          "note": null
+        },
+        {
+          "title": "Navigating the Jagged Technological Frontier (Study)",
+          "url": "https://www.science.org/doi/10.1126/science.adh2586",
+          "author": "Dell'Acqua et al.",
+          "source": "Science",
+          "date": "2023",
+          "tags": [],
+          "description": "The research behind the \"jagged frontier\" concept. BCG consultants using GPT-4 were 25% more productive on tasks inside the frontier and produced lower-quality work on tasks outside it.",
+          "note": null
+        },
+        {
+          "title": "Gen-AI: AI and the Future of Work",
+          "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+          "author": "International Monetary Fund",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Global perspective on AI and employment. Addresses differential impacts across income levels and countries.",
+          "note": null
+        },
+        {
+          "title": "Artificial Intelligence and the Politics of Avoidance in Global Health",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0277953624007287",
+          "author": "Leah Shipton & Lucia Vitale",
+          "source": "Social Science & Medicine",
+          "date": "October 2024",
+          "tags": [],
+          "description": "Argues AI is the latest technology-based solution that avoids addressing fundamental determinants of health inequities.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

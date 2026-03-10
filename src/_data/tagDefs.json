@@ -1,0 +1,22 @@
+{
+  "tags": [
+    { "id": "equity", "label": "Equity", "color": "eggplant" },
+    { "id": "privacy", "label": "Privacy", "color": "midnight" },
+    { "id": "tools", "label": "Tools", "color": "teal" },
+    { "id": "research", "label": "Research", "color": "sky" },
+    { "id": "policy", "label": "Policy", "color": "midnight" },
+    { "id": "work", "label": "Work & Identity", "color": "magenta" },
+    { "id": "citations", "label": "Citations", "color": "teal" },
+    { "id": "meetings", "label": "Meetings", "color": "sky" },
+    { "id": "global-south", "label": "Global South", "color": "eggplant" },
+    { "id": "organizational", "label": "Organizational", "color": "midnight" },
+    { "id": "consent", "label": "Consent", "color": "magenta" },
+    { "id": "environmental", "label": "Environmental", "color": "teal" },
+    { "id": "deskilling", "label": "Deskilling", "color": "magenta" },
+    { "id": "reliability", "label": "Reliability", "color": "teal" },
+    { "id": "writing", "label": "Writing", "color": "sky" },
+    { "id": "frameworks", "label": "Frameworks", "color": "midnight" },
+    { "id": "orientation", "label": "Orientation", "color": "teal" },
+    { "id": "manuscripts", "label": "Manuscripts", "color": "sky" }
+  ]
+}

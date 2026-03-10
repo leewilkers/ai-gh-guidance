@@ -1,0 +1,82 @@
+/* =================================================================
+   PRINT — Clean layout, all tiers expanded, URLs shown
+   ================================================================= */
+
+@media print {
+  /* Reset colors */
+  body, body::before {
+    background: white !important;
+    color: black !important;
+  }
+
+  body::before {
+    display: none !important;
+  }
+
+  /* Hide interactive elements */
+  .sidebar,
+  .site-header__actions,
+  .search-overlay,
+  .search-trigger,
+  .theme-toggle,
+  .tag-filter {
+    display: none !important;
+  }
+
+  /* Full width */
+  .page {
+    grid-template-columns: 1fr !important;
+    max-width: none !important;
+  }
+
+  .content {
+    max-width: none !important;
+  }
+
+  /* All tiers open */
+  .tier[open] summary ~ *,
+  .tier summary ~ * {
+    display: block !important;
+  }
+
+  details.tier {
+    break-inside: avoid;
+    margin-bottom: 1em;
+  }
+
+  /* Show URLs after links */
+  .resource-card__title a::after {
+    content: ' (' attr(href) ')' !important;
+    font-size: 0.75em;
+    color: #666;
+    word-break: break-all;
+  }
+
+  /* Clean resource styles */
+  .resource-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Page breaks */
+  .page-header {
+    page-break-after: avoid;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Callouts */
+  .callout {
+    border: 1px solid #999 !important;
+    background: #f5f5f5 !important;
+  }
+
+  /* Tags */
+  .tag {
+    border: 1px solid #999 !important;
+    background: white !important;
+    color: black !important;
+  }
+}

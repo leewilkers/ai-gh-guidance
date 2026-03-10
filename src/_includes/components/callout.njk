@@ -1,0 +1,10 @@
+{# Standalone callout component
+   Usage: {% set callout = { title: "...", body: "...", type: "warning" } %}
+          {% include "components/callout.njk" %}
+#}
+<div class="callout{% if callout.type == 'warning' %} callout--warning{% endif %}">
+  {%- if callout.title %}
+  <p class="callout__title">{{ callout.title }}</p>
+  {%- endif %}
+  <div class="callout__body">{{ callout.body | safe }}</div>
+</div>

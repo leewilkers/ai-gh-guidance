@@ -1,0 +1,27 @@
+{
+  "main": [
+    { "label": "Guide", "url": "/guide/" },
+    { "label": "Tools", "url": "/tools/" },
+    { "label": "Reading", "url": "/reading/" },
+    { "label": "News", "url": "/news/" }
+  ],
+  "guide": [
+    { "id": "getting-started", "number": 1, "label": "Getting Started", "url": "/guide/getting-started/" },
+    { "id": "meetings", "number": 2, "label": "Meetings & Recording", "url": "/guide/meetings/" },
+    { "id": "research-writing", "number": 3, "label": "Research & Writing", "url": "/guide/research-writing/" },
+    { "id": "manuscripts", "number": 4, "label": "Manuscripts & Disclosure", "url": "/guide/manuscripts/" },
+    { "id": "data-privacy", "number": 5, "label": "Data & Privacy", "url": "/guide/data-privacy/" },
+    { "id": "work-life", "number": 6, "label": "AI & Work", "url": "/guide/work-life/" },
+    { "id": "equity", "number": 7, "label": "Equity & Global Health", "url": "/guide/equity/" },
+    { "id": "org-policy", "number": 8, "label": "Organizational Policy", "url": "/guide/org-policy/" }
+  ],
+  "reading": [
+    { "id": "canon", "number": "I", "label": "Foundations", "url": "/reading/canon/" },
+    { "id": "work-identity", "number": "II", "label": "AI and Work", "url": "/reading/work-identity/" },
+    { "id": "ethics-governance", "number": "III", "label": "Ethics & Governance", "url": "/reading/ethics-governance/" },
+    { "id": "sovereignty", "number": "IV", "label": "AI and the Global South", "url": "/reading/sovereignty/" },
+    { "id": "policy", "number": "V", "label": "Regulatory Landscape", "url": "/reading/policy/" },
+    { "id": "uncomfortable", "number": "VI", "label": "Open Questions", "url": "/reading/uncomfortable/" },
+    { "id": "voices", "number": "VII", "label": "People to Follow", "url": "/reading/voices/" }
+  ]
+}

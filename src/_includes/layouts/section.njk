@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+---
+{%- set sectionData = guide[sectionId] if pageType == "guide" else (tools if pageType == "tools" else reading[sectionId]) -%}
+
+<main class="page">
+  {% include "components/sidebar.njk" %}
+
+  <!-- Content -->
+  <div class="content" data-pagefind-body>
+    {%- if sectionData %}
+    <header class="section-header">
+      {%- if sectionData.section.number %}
+      <p class="section-number">Section {{ sectionData.section.number }}</p>
+      {%- endif %}
+      <h1>{{ sectionData.section.title | safe }}</h1>
+      {%- if sectionData.section.subtitle %}
+      <p class="section-subtitle">{{ sectionData.section.subtitle }}</p>
+      {%- endif %}
+    </header>
+
+    {%- if sectionData.section.intro %}
+    <p class="section-intro">{{ sectionData.section.intro | safe }}</p>
+    {%- endif %}
+
+    {%- if sectionData.warningCallout %}
+    {% set callout = sectionData.warningCallout %}
+    <div class="callout callout--warning">
+      {%- if callout.title %}<p class="callout__title">{{ callout.title }}</p>{%- endif %}
+      <div class="callout__body">{{ callout.body | safe }}</div>
+    </div>
+    {%- endif %}
+
+    {%- if sectionData.section.keyQuestion %}
+    <div class="key-question">{{ sectionData.section.keyQuestion | safe }}</div>
+    {%- endif %}
+
+    {%- if sectionData.callout %}
+    {% set callout = sectionData.callout %}
+    <div class="callout">
+      {%- if callout.title %}<p class="callout__title">{{ callout.title }}</p>{%- endif %}
+      <div class="callout__body">{{ callout.body | safe }}</div>
+    </div>
+    {%- endif %}
+
+    <!-- Tier Accordions -->
+    {%- if sectionData.tiers and sectionData.tiers.length > 1 %}
+    {%- for tier in sectionData.tiers %}
+    <details class="tier"{% if loop.first %} open{% endif %}>
+      <summary>
+        <span class="tier-label">{{ tier.label }}</span>
+        <span class="tier-count">({{ tier.resources | length }})</span>
+      </summary>
+      <div class="tier-body">
+        {%- for resource in tier.resources %}
+        {% include "components/resource.njk" %}
+        {%- endfor %}
+      </div>
+    </details>
+    {%- endfor %}
+
+    {%- elif sectionData.tiers and sectionData.tiers.length == 1 %}
+    <!-- Single tier — no accordion needed -->
+    <div class="tier-single">
+      {%- for resource in sectionData.tiers[0].resources %}
+      {% include "components/resource.njk" %}
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- else %}
+    <p>Content coming soon.</p>
+    {%- endif %}
+
+    {{ content | safe }}
+  </div>
+</main>

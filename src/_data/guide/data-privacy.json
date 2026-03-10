@@ -1,0 +1,145 @@
+{
+  "section": {
+    "id": "data-privacy",
+    "number": 5,
+    "title": "Data and privacy",
+    "subtitle": "",
+    "intro": "Free-tier AI tools generally use inputs for training. Paid and enterprise tiers generally don't. The specifics vary by tool and tier.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "OpenAI Enterprise Privacy",
+          "url": "https://openai.com/enterprise-privacy",
+          "author": "OpenAI",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Data handling at each OpenAI tier. Enterprise and team privacy commitments are stronger than the free tier.",
+          "note": null
+        },
+        {
+          "title": "Anthropic (Claude) Privacy Practices",
+          "url": "https://www.anthropic.com/privacy",
+          "author": "Anthropic",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Claude's data practices by tier. Pro and Team tiers do not use inputs for training. Free tier has more limited privacy protections.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "IAPP AI Governance Resource Center",
+          "url": "https://iapp.org/resources/article/ai-governance-center/",
+          "author": "International Association of Privacy Professionals",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "AI governance and privacy resources covering GDPR implications, data protection impact assessments, and cross-border data transfer issues.",
+          "note": null
+        },
+        {
+          "title": "EU Data Protection & GDPR",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+          "author": "European Commission",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "GDPR applies to any organization processing data of European residents, regardless of where the organization is based. AI tools processing personal data must comply.",
+          "note": null
+        },
+        {
+          "title": "AI Policy Template for Nonprofits",
+          "url": "https://www.communityit.com/ai-policy-for-nonprofits/",
+          "author": "Community IT",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Data classification framework for nonprofits: what data can enter AI tools, what cannot, and how to make the distinction operational.",
+          "note": null
+        },
+        {
+          "title": "AI Consent Guide: IRB Language for AI-Involved Research",
+          "url": "https://research.rutgers.edu/news/new-ai-consent-guide-helps-researchers-strengthen-irb-submissions-and-protect-participants",
+          "author": "Rutgers University",
+          "source": "HRPP/IRB",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Consent language templates for research involving AI tools. Addresses how to inform participants when AI may process their data during analysis.",
+          "note": null
+        },
+        {
+          "title": "Informed Consent, Redefined",
+          "url": "https://petrieflom.law.harvard.edu/resources/article/informed-consent-redefined-ai",
+          "author": "Harvard Petrie-Flom Center",
+          "source": "",
+          "date": "April 2025",
+          "tags": [],
+          "description": "Traditional consent assumes specific, bounded data uses. AI processing is neither – data can enter training sets permanently. Examines how legal and ethical frameworks are adapting.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "SACHRP Recommendations on AI and Human Subjects Protections",
+          "url": "https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-a-september-12-2024/index.html",
+          "author": "OHRP/SACHRP",
+          "source": "",
+          "date": "September 2024",
+          "tags": [],
+          "description": "Advisory committee recommendations on how AI intersects with IRB oversight and human subjects protections.",
+          "note": "SACHRP was terminated in March 2025 as part of HHS restructuring (82,000 to 62,000 staff). The recommendations remain substantively relevant, but the institutional mechanism for updating federal AI guidance in research is gone."
+        },
+        {
+          "title": "HHS Cuts Impacting Human Subject Research – No More SACHRP?",
+          "url": "https://www.hklaw.com/en/insights/publications/2025/04/hhs-cuts-impacting-human-subject-research-no-more-sachrp",
+          "author": "Holland & Knight",
+          "source": "",
+          "date": "April 2025",
+          "tags": [],
+          "description": "Legal analysis of what the elimination of SACHRP means for human research protections in the US.",
+          "note": null
+        },
+        {
+          "title": "Consent for Secondary Use of Data in AI Research",
+          "url": "https://doi.org/10.1186/s12910-025-01045-7",
+          "author": "BMC Medical Ethics",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "AI incorporates training data into all future predictions, making consent effectively irrevocable once data enters a model's training set. Examines the withdrawal-of-consent problem.",
+          "note": null
+        },
+        {
+          "title": "AI and Data Privacy: A Primer",
+          "url": "https://fpf.org/blog/ai-and-data-privacy-a-primer/",
+          "author": "Future of Privacy Forum",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Technical overview of how AI systems handle data: training data vs. inference data, data retention, and the mechanisms behind privacy commitments.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": {
+    "title": "Bright line",
+    "body": "Participant data, patient information, unpublished research findings, personnel documents, legal communications, and anything covered by an IRB protocol should not enter any AI tool regardless of tier. The question is whether the original informed consent covers this use."
+  }
+}

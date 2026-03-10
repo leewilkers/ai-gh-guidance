@@ -1,0 +1,127 @@
+{
+  "section": {
+    "id": "work-identity",
+    "number": "II",
+    "title": "AI and work",
+    "subtitle": "",
+    "intro": "How AI changes the experience of professional work – productivity, expertise, identity, and who benefits from the gains."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "AI Doesn't Reduce Work – It Intensifies It",
+          "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+          "author": "Aruna Ranganathan & Xingqi Maggie Ye",
+          "source": "Harvard Business Review",
+          "date": "February 2026",
+          "tags": [],
+          "description": "Eight-month study of AI tool adoption at a tech company. Found work intensified rather than decreased – organizations got more output, not less work."
+        },
+        {
+          "title": "Why Gen AI Feels So Threatening to Workers",
+          "url": "https://hbr.org/2026/03/why-gen-ai-feels-so-threatening-to-workers",
+          "author": "",
+          "source": "Harvard Business Review",
+          "date": "March 2026",
+          "tags": [],
+          "description": "Identifies three threats beyond job loss: competence (AI approximates expert output), autonomy (decisions shift to systems workers don't control), and belonging (team identity shifts when core tasks change)."
+        },
+        {
+          "title": "How Do Workers Develop Good Judgment in the AI Era?",
+          "url": "https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era",
+          "author": "",
+          "source": "Harvard Business Review",
+          "date": "February 2026",
+          "tags": [],
+          "description": "Senior professionals gain from AI because they can evaluate its output. Junior staff can't yet – they need to build judgment through doing the work AI now handles."
+        },
+        {
+          "title": "Management as AI Superpower",
+          "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Argues that working with AI agents requires management skills, not prompt engineering. Delegating, reviewing, providing context, and catching errors are the same skills that make a good manager."
+        },
+        {
+          "title": "AI Adoption Accelerating, Confidence Collapsing",
+          "url": "https://fortune.com/2026/01/ai-adoption-confidence-collapsing/",
+          "author": "",
+          "source": "Fortune",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Survey data showing trust in company AI programs fell 31% in three months while adoption accelerated."
+        },
+        {
+          "title": "The Anthropic Economic Index",
+          "url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+          "author": "",
+          "source": "Anthropic",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Analysis of Claude usage patterns. Found a net deskilling pattern – AI covers higher-education tasks first, not manual labor."
+        },
+        {
+          "title": "The AI Precariat: Davos Experts Warn of a New Class of Worker",
+          "url": "https://www.weforum.org/stories/2025/01/davos-experts-ai-precariat/",
+          "author": "",
+          "source": "World Economic Forum",
+          "date": "January 2025",
+          "tags": [],
+          "description": "Identifies a class of workers whose skills are perpetually one model release away from devaluation. Focuses on knowledge workers, not manual labor."
+        },
+        {
+          "title": "Algorithmic Anxiety: A Systematic Review",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1416986/full",
+          "author": "",
+          "source": "Frontiers in Psychology",
+          "date": "2024",
+          "tags": [],
+          "description": "Systematic review of the psychological effects of working alongside AI decision systems – anxiety about algorithmic evaluation and uncertainty about when to override AI recommendations."
+        },
+        {
+          "title": "Navigating the Jagged Technological Frontier",
+          "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+          "author": "Dell'Acqua, Mollick, et al.",
+          "source": "Harvard Business School",
+          "date": "2023",
+          "tags": [],
+          "description": "758 BCG consultants using AI finished 12% more tasks, 25% faster, at 40% higher quality. But AI's capability boundary is \"jagged\" – it excels at some tasks and fails silently at others."
+        },
+        {
+          "title": "Intuition and Taste in the Age of AI",
+          "url": "https://hsph.harvard.edu/news/essay-intuition-and-taste-in-the-age-of-ai/",
+          "author": "",
+          "source": "Harvard T.H. Chan School of Public Health",
+          "date": "October 2025",
+          "tags": [],
+          "description": "Argues that when evidence collection becomes automated, what remains is judgment – the ability to sense patterns before you can name them. Discernment matters more, not less, as AI removes friction between measurement and action."
+        },
+        {
+          "title": "AI isn't useless. But is it worth it?",
+          "url": "https://www.citationneeded.news/ai-isnt-useless/",
+          "author": "Molly White",
+          "source": "Citation Needed",
+          "date": "April 2024",
+          "tags": [],
+          "description": "AI is useful for some things (simple coding, proofreading). Weighs the genuine utility against environmental cost, labor displacement, and the hype cycle."
+        },
+        {
+          "title": "AI Changed Work Forever in 2025",
+          "url": "https://time.com/7342494/ai-changed-work-forever/",
+          "author": "",
+          "source": "TIME",
+          "date": "December 2025",
+          "tags": [],
+          "description": "Year-in-review of how AI reshaped professional work in 2025 through quiet integration into daily workflows, changing expectations faster than policies could keep up."
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

@@ -1,0 +1,23 @@
+/* =================================================================
+   DARK MODE — Additional overrides beyond token swaps
+   ================================================================= */
+
+:root[data-theme="dark"] .resource-card__desc {
+  color: var(--color-text-secondary);
+}
+
+:root[data-theme="dark"] .key-question {
+  background: #1e1a2e;
+}
+
+:root[data-theme="dark"] .callout--warning {
+  background: #2a1525;
+}
+
+:root[data-theme="dark"] img {
+  opacity: 0.9;
+}
+
+:root[data-theme="dark"] body::before {
+  opacity: 0.8;
+}

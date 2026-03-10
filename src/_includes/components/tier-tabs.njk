@@ -1,0 +1,19 @@
+{# Tier accordions component (details/summary)
+   Usage: {% set tiers = sectionData.tiers %}
+          {% include "components/tier-tabs.njk" %}
+#}
+{%- if tiers and tiers.length > 1 %}
+{%- for tier in tiers %}
+<details class="tier"{% if loop.first %} open{% endif %}>
+  <summary>
+    <span class="tier-label">{{ tier.label }}</span>
+    <span class="tier-count">({{ tier.resources | length }})</span>
+  </summary>
+  <div class="tier-body">
+    {%- for resource in tier.resources %}
+    {% include "components/resource.njk" %}
+    {%- endfor %}
+  </div>
+</details>
+{%- endfor %}
+{%- endif %}

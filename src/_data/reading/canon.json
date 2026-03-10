@@ -1,0 +1,145 @@
+{
+  "section": {
+    "id": "canon",
+    "number": "I",
+    "title": "Foundations",
+    "subtitle": "",
+    "intro": "The essays and books that shaped the AI conversation. Widely cited, frequently disagreeing with each other."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "ChatGPT Is a Blurry JPEG of the Web",
+          "url": "https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web",
+          "author": "Ted Chiang",
+          "source": "The New Yorker",
+          "date": "February 2023",
+          "tags": [],
+          "description": "Language models as lossy compression of the internet. Whether or not the analogy holds technically, it gave non-specialists a way to think about what these systems are doing."
+        },
+        {
+          "title": "Will A.I. Become the New McKinsey?",
+          "url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey",
+          "author": "Ted Chiang",
+          "source": "The New Yorker",
+          "date": "May 2023",
+          "tags": [],
+          "description": "AI as management consulting: a tool that lets organizations do things they already wanted to do while diffusing accountability."
+        },
+        {
+          "title": "Why A.I. Isn't Going to Make Art",
+          "url": "https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art",
+          "author": "Ted Chiang",
+          "source": "The New Yorker",
+          "date": "August 2024",
+          "tags": [],
+          "description": "Art requires the choices a human makes. Contested, but names something real about the unease people feel watching AI approximate creative work."
+        },
+        {
+          "title": "Machines of Loving Grace",
+          "url": "https://darioamodei.com/machines-of-loving-grace",
+          "author": "Dario Amodei",
+          "source": "",
+          "date": "October 2024",
+          "tags": [],
+          "description": "Anthropic's CEO on what AI could do for biology, health, economic development, and governance if development goes well. The optimistic case from someone building the systems."
+        },
+        {
+          "title": "The Adolescence of Technology",
+          "url": "https://darioamodei.com/the-adolescence-of-technology",
+          "author": "Dario Amodei",
+          "source": "",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Amodei on the governance challenge of systems that are capable enough to be dangerous but not yet reliable enough to trust. 20,000 words."
+        },
+        {
+          "title": "Situational Awareness: The Decade Ahead",
+          "url": "https://situational-awareness.ai/",
+          "author": "Leopold Aschenbrenner",
+          "source": "",
+          "date": "June 2024",
+          "tags": [],
+          "description": "165 pages making the accelerationist case: AGI by 2027 is plausible, superintelligence follows shortly. Aschenbrenner turned this essay into a $1.5 billion hedge fund. Represents the worldview driving tens of billions in AI investment."
+        },
+        {
+          "title": "AI Snake Oil",
+          "url": "https://www.aisnakeoil.com/",
+          "author": "Arvind Narayanan & Sayash Kapoor",
+          "source": "Princeton University Press",
+          "date": "2024",
+          "tags": [],
+          "description": "Distinguishes what AI can do from what it's marketed as doing, built from research on prediction limits and the reproducibility crisis in ML-based science. The companion blog (renamed AI as Normal Technology) frames AI as useful, flawed, and needing regulation."
+        },
+        {
+          "title": "The Shape of AI: Jaggedness, Bottlenecks and Salients",
+          "url": "https://www.oneusefulthing.org/p/the-shape-of-ai",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "December 2025",
+          "tags": [],
+          "description": "Maps where AI capability is advancing (salients), where it's stuck (bottlenecks), and why the frontier remains uneven (jaggedness)."
+        },
+        {
+          "title": "Mass Intelligence",
+          "url": "https://www.oneusefulthing.org/p/mass-intelligence",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "August 2025",
+          "tags": [],
+          "description": "Over 1 billion people now use AI tools. Asks what happens to institutions built around the premise that expertise is rare when generating competent text and analysis is effectively free."
+        },
+        {
+          "title": "Re-sourcing the Mind",
+          "url": "https://theconvivialsociety.substack.com/p/re-sourcing-the-mind",
+          "author": "L.M. Sacasas",
+          "source": "The Convivial Society",
+          "date": "2025",
+          "tags": [],
+          "description": "When AI drafts the email, writes the memo, and summarizes the meeting, the labor of putting thought into words – often the process that IS the thinking – is lost."
+        },
+        {
+          "title": "Reverse Centaurs and Enshittification",
+          "url": "https://pluralistic.net/tag/reverse-centaurs/",
+          "author": "Cory Doctorow",
+          "source": "Pluralistic",
+          "date": "2024–2025",
+          "tags": [],
+          "description": "The \"reverse centaur\" inverts the human-AI partnership: instead of AI augmenting human judgment, humans service AI systems – monitoring, correcting, providing judgment while being paid as if the machine did the work."
+        },
+        {
+          "title": "Home-Cooked Software and Barefoot Developers",
+          "url": "https://maggieappleton.com/home-cooked-software",
+          "author": "Maggie Appleton",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "AI as a tool for enabling anyone to build small, personal, useful software. Counterpoint to the deskilling narrative."
+        },
+        {
+          "title": "Blood in the Machine",
+          "url": "https://www.bloodinthemachine.com/",
+          "author": "Brian Merchant",
+          "source": "Hachette",
+          "date": "2023 (newsletter ongoing)",
+          "tags": [],
+          "description": "History of the Luddites – skilled workers fighting the use of machinery to drive down wages, not technophobes. The ongoing newsletter includes an \"AI Killed My Job\" series."
+        },
+        {
+          "title": "Empire of AI",
+          "url": "https://www.penguinrandomhouse.com/books/empire-of-ai-karen-hao/",
+          "author": "Karen Hao",
+          "source": "Penguin Random House",
+          "date": "2025",
+          "tags": [],
+          "description": "Investigative journalism tracing AI's supply chain from rare earth mines to training data labelers to deployment decisions."
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

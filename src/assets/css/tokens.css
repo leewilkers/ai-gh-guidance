@@ -1,0 +1,88 @@
+/* =================================================================
+   DESIGN TOKENS
+   ================================================================= */
+
+:root {
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --paper: #ffffff;
+  --ink: #1a1a1a;
+  --accent: #147D91;
+  --accent-hover: #0f6170;
+  --secondary: #2A4E7C;
+  --highlight: #5B2E57;
+  --pop: #FFDE59;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --surface: #F2F2F2;
+
+  /* Semantic aliases for templates */
+  --color-bg: var(--paper);
+  --color-bg-alt: var(--surface);
+  --color-text: var(--ink);
+  --color-text-secondary: #4b5563;
+  --color-text-muted: var(--muted);
+  --color-link: var(--accent);
+  --color-link-hover: var(--accent-hover);
+  --color-border: var(--border);
+  --color-border-strong: var(--secondary);
+  --color-accent: var(--accent);
+  --color-accent-highlight: var(--highlight);
+  --color-card-bg: var(--paper);
+  --color-card-border: var(--border);
+  --color-card-hover-border: var(--accent);
+  --color-callout-bg: #f0f9ff;
+  --color-callout-border: var(--accent);
+  --color-warning-bg: #fef3cd;
+  --color-warning-border: #d4a017;
+  --color-warning-text: #664d03;
+  --color-tab-active: var(--ink);
+  --color-tab-inactive: var(--muted);
+  --color-sidebar-active: var(--ink);
+  --color-tag-text: #ffffff;
+  --color-tag-eggplant: var(--highlight);
+  --color-tag-midnight: var(--secondary);
+  --color-tag-teal: var(--accent);
+  --color-tag-sky: #0891b2;
+  --color-tag-magenta: #911087;
+
+  --shadow-overlay: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  --z-sidebar: 10;
+  --z-header: 20;
+  --z-overlay: 30;
+  --z-search: 40;
+}
+
+::selection {
+  background: var(--pop);
+  color: var(--ink);
+}
+
+/* Dark mode */
+:root[data-theme="dark"] {
+  --paper: #0f172a;
+  --ink: #e2e8f0;
+  --surface: #1e293b;
+  --muted: #64748b;
+  --border: #334155;
+  --accent: #7FD9EB;
+  --accent-hover: #a7e8f5;
+  --secondary: #7FD9EB;
+  --highlight: #9b59b6;
+  --pop: #FFDE59;
+  --color-text-secondary: #94a3b8;
+  --color-card-bg: #1e293b;
+  --color-card-border: #334155;
+  --color-card-hover-border: #7FD9EB;
+  --color-callout-bg: #172554;
+  --color-callout-border: #7FD9EB;
+  --color-warning-bg: #422006;
+  --color-warning-border: var(--pop);
+  --color-warning-text: #fde68a;
+  --color-tag-eggplant: #9b59b6;
+  --color-tag-midnight: #5b8bbf;
+  --color-tag-teal: #2dd4bf;
+  --color-tag-sky: #22d3ee;
+  --color-tag-magenta: #d946ef;
+  --shadow-overlay: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}

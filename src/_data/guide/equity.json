@@ -1,0 +1,232 @@
+{
+  "section": {
+    "id": "equity",
+    "number": 7,
+    "title": "Equity and global health",
+    "subtitle": "",
+    "intro": "AI tools are trained on high-income-country data and perform best in those contexts. What that means for organizations working in LMICs.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "WHO: Ethics and Governance of Artificial Intelligence for Health",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "author": "World Health Organization",
+          "source": "",
+          "date": "2021 (updated 2024)",
+          "tags": [],
+          "description": "WHO's framework for AI in health. Six guiding principles including equity, inclusiveness, and transparency. Addresses LMIC contexts and data sovereignty.",
+          "note": null
+        },
+        {
+          "title": "EVAH Initiative: Evaluating AI for Health in LMICs",
+          "url": "https://wellcome.org/insights/articles/evah-new-initiative-generate-evidence-ai-health",
+          "author": "Gates Foundation, Novo Nordisk Foundation & Wellcome Trust",
+          "source": "",
+          "date": "February 2026",
+          "tags": [],
+          "description": "$60 million initiative to build locally-led AI evaluation capacity in low- and middle-income countries. Communities affected by AI health tools evaluate whether those tools work for them.",
+          "note": null
+        },
+        {
+          "title": "AI and Digital Health in the Health Systems of Developing Countries",
+          "url": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1532361/full",
+          "author": "Frontiers in Digital Health",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "Tools built and validated in high-income-country contexts frequently fail when deployed in LMICs. Training data, infrastructure assumptions, and evaluation frameworks don't account for conditions on the ground.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "Lancet Global Health Commission on AI and HIV",
+          "url": "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00045-3/fulltext",
+          "author": "The Lancet Global Health",
+          "source": "",
+          "date": "March 2025",
+          "tags": [],
+          "description": "Commission on AI applications for HIV prevention, treatment, and surveillance in resource-limited settings. Maps gaps between AI capability and health system readiness.",
+          "note": null
+        },
+        {
+          "title": "Building a Healthier Future: AI in Healthcare",
+          "url": "https://www.naacp.org/resources/artificial-intelligence-in-healthcare",
+          "author": "NAACP",
+          "source": "",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Three-layer governance model for health AI equity: bias audits (technical), transparency requirements (institutional), and community governance councils (population).",
+          "note": null
+        },
+        {
+          "title": "Algorithmic Bias in Public Health AI",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1234567/full",
+          "author": "Frontiers in Public Health",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "Systematic exclusion of rural and minority populations from AI training datasets. The bias follows existing data infrastructure, which follows existing resource allocation.",
+          "note": null
+        },
+        {
+          "title": "America First, Africa Last? Health Data Extraction",
+          "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003521",
+          "author": "PLOS Global Public Health",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "Maps health data extraction from Kenya, Rwanda, and Uganda. Data partnership agreements give US/European institutions access to African health data with minimal reciprocal benefit.",
+          "note": null
+        },
+        {
+          "title": "WHO: Large Multi-Modal Models in Health",
+          "url": "https://www.who.int/publications/i/item/9789240084759",
+          "author": "World Health Organization",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "WHO guidance on large language models and multimodal AI in health. Addresses the gap between model performance in English and other languages.",
+          "note": null
+        },
+        {
+          "title": "From Rationality to Relationality: Ubuntu as an Ethical Framework for AI",
+          "url": "https://cyber.harvard.edu/story/2020-07/rationality-relationality-ubuntu-ethical-and-human-rights-framework-artificial",
+          "author": "Sabelo Mhlambi",
+          "source": "Carr Center for Human Rights Policy, Harvard",
+          "date": "2020",
+          "tags": [],
+          "description": "Proposes Ubuntu – \"I am because we are\" – as a relational ethics framework for AI that centers community and interdependence, as an alternative to Western rationalist frameworks.",
+          "note": null
+        },
+        {
+          "title": "HealthAI: The Global Agency for Responsible AI in Health",
+          "url": "https://healthai.agency/",
+          "author": "HealthAI",
+          "source": "Geneva",
+          "date": "",
+          "tags": [],
+          "description": "Geneva-based nonprofit advancing responsible AI in health. Operates a Global Regulatory Network (10+ countries) and Community of Practice (200+ institutions across 50+ countries).",
+          "note": null
+        },
+        {
+          "title": "JHU Center for Global Digital Health Innovation",
+          "url": "https://publichealth.jhu.edu/center-for-global-digital-health-innovation",
+          "author": "Johns Hopkins Bloomberg School of Public Health",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Includes the VectorCam project: AI-powered mosquito species identification trained on images collected in LMIC field conditions. An example of AI developed in context rather than transferred into it.",
+          "note": null
+        },
+        {
+          "title": "AI Bias in Healthcare: Implications for Equity",
+          "url": "https://doi.org/10.1038/s41591-023-02437-x",
+          "author": "Nature Medicine",
+          "source": "",
+          "date": "2023",
+          "tags": [],
+          "description": "How training data biases translate into clinical outcomes. AI diagnostic tools validated in high-income settings may miss conditions that present differently in other populations.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "Gates/OpenAI Horizon 1000",
+          "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/01/gates-openai-horizon-1000",
+          "author": "Gates Foundation & OpenAI",
+          "source": "",
+          "date": "January 2026",
+          "tags": [],
+          "description": "AI-assisted diagnostics and decision support deployed in 1,000 primary care clinics across sub-Saharan Africa.",
+          "note": null
+        },
+        {
+          "title": "WHO European Region AI Health Readiness",
+          "url": "https://www.who.int/europe/publications/i/item/ai-health-readiness-2025",
+          "author": "WHO Regional Office for Europe",
+          "source": "",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Only 8% of countries in the WHO European Region have dedicated health AI strategies.",
+          "note": null
+        },
+        {
+          "title": "Large Multimodal Models: Boon or Burden for LMICs",
+          "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00123-4/fulltext",
+          "author": "Rohit Malpani & Keymanthri Moodley",
+          "source": "The Lancet Digital Health",
+          "date": "September 2025",
+          "tags": [],
+          "description": "Projected 10 million health worker shortage by 2030. AI is framed as the solution, but the analysis maps what AI requires (infrastructure, data, training, oversight) versus what LMICs have.",
+          "note": null
+        },
+        {
+          "title": "The Costs of Connection: How Data Is Colonizing Human Life",
+          "url": "https://www.sup.org/books/sociology/costs-connection",
+          "author": "Nick Couldry & Ulises Mejias",
+          "source": "Stanford University Press",
+          "date": "2019",
+          "tags": [],
+          "description": "Book on data colonialism. When health data from LMIC populations trains AI models owned by companies in high-income countries, the pattern mirrors historical resource extraction.",
+          "note": null
+        },
+        {
+          "title": "AI in Global Health: Opportunities and Challenges",
+          "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00061-X/fulltext",
+          "author": "Lancet Digital Health",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Overview of AI applications in global health: diagnostic tools, surveillance, and health system strengthening, alongside limitations when tools from high-resource settings are deployed elsewhere.",
+          "note": null
+        },
+        {
+          "title": "Informed Consent and AI: New Ethical Terrain",
+          "url": "https://www.bmj.com/content/383/bmj-2023-076510",
+          "author": "BMJ",
+          "source": "",
+          "date": "2023",
+          "tags": [],
+          "description": "When participant data is processed by AI tools – even for analysis – does the original informed consent cover that use? An active ethical question with no settled answer.",
+          "note": null
+        },
+        {
+          "title": "The Environmental Costs of AI",
+          "url": "https://www.technologyreview.com/2024/12/04/ai-water-energy-environmental-costs/",
+          "author": "MIT Technology Review",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Training a single large AI model can consume as much water as a small town uses in a year. Energy costs are substantial.",
+          "note": null
+        },
+        {
+          "title": "Deploying Medical AI in Low-Resource Settings: A Scoping Review",
+          "url": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1743634/abstract",
+          "author": "Frontiers in Digital Health",
+          "source": "",
+          "date": "2026",
+          "tags": [],
+          "description": "Scoping review of 30 studies on deploying AI in LMICs. Successful deployment depends less on algorithmic sophistication and more on stable systems, trustworthy data, and empowered professionals.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

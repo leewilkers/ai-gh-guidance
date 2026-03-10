@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+---
+{%- set navItems = nav.guide if pageType == "guide" else nav.reading -%}
+{%- set dataSource = guide if pageType == "guide" else reading -%}
+
+<main class="page">
+  {% include "components/sidebar.njk" %}
+
+  <!-- Content -->
+  <div class="content">
+    <header class="page-header">
+      <h1>{{ title }}</h1>
+      <p class="subtitle">{{ subtitle }}</p>
+      {%- if epigraph %}
+      <p class="epigraph">{{ epigraph }}</p>
+      {%- endif %}
+    </header>
+
+    <!-- Section index cards -->
+    <div class="section-index">
+      {%- for item in navItems %}
+      {%- set sData = dataSource[item.id] %}
+      <a href="{{ item.url }}" class="section-index-card">
+        <span class="section-index-card__number">{{ item.number }}</span>
+        <div class="section-index-card__body">
+          <p class="section-index-card__title">
+            {%- if sData and sData.section %}{{ sData.section.title | safe }}{% else %}{{ item.label }}{% endif -%}
+          </p>
+          {%- if sData and sData.section and sData.section.subtitle %}
+          <p class="section-index-card__subtitle">{{ sData.section.subtitle }}</p>
+          {%- endif %}
+        </div>
+        {%- if sData and sData.tiers %}
+        <span class="section-index-card__count">{{ sData.tiers | resourceCount }} resources</span>
+        {%- endif %}
+      </a>
+      {%- endfor %}
+    </div>
+
+    {{ content | safe }}
+  </div>
+</main>

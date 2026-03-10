@@ -1,0 +1,142 @@
+{
+  "section": {
+    "id": "research-writing",
+    "number": 3,
+    "title": "Research and writing",
+    "subtitle": "",
+    "intro": "Tools for literature search, synthesis, and drafting. The main risk is citation fabrication – dedicated tools search real databases, general-purpose models don't.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "Elicit",
+          "url": "https://elicit.com/",
+          "author": "elicit.com",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "AI research assistant with systematic review mode and 138 million indexed papers. Searches real databases rather than generating text that looks like citations.",
+          "note": null
+        },
+        {
+          "title": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/",
+          "author": "Allen Institute for AI",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Free academic search engine with AI-generated summaries, citation context, and research recommendations. Built by a nonprofit.",
+          "note": null
+        },
+        {
+          "title": "Accuracy of AI-Generated References in Medical Literature",
+          "url": "https://doi.org/10.1093/jamia/ocad072",
+          "author": "JAMIA",
+          "source": "",
+          "date": "2023",
+          "tags": [],
+          "description": "Found 26.5% of ChatGPT-generated references were fully correct. 64% of fabricated DOIs linked to real but unrelated papers.",
+          "note": null
+        },
+        {
+          "title": "NotebookLM",
+          "url": "https://notebooklm.google.com",
+          "author": "Google",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Google's research tool with 1 million token context window and structured extraction. Free. Works best with curated source documents rather than open-ended search.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "Perplexity",
+          "url": "https://www.perplexity.ai",
+          "author": "perplexity.ai",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "AI-powered search with academic filter and Deep Research mode. Produces cited, structured responses. Citation accuracy still requires verification against primary sources.",
+          "note": null
+        },
+        {
+          "title": "Can Researchers Stop AI Making Up Citations?",
+          "url": "https://www.nature.com/articles/d41586-025-00178-w",
+          "author": "Nature",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "Update on citation fabrication and the emerging \"vibe citing\" problem – researchers citing papers found via AI without reading them.",
+          "note": null
+        },
+        {
+          "title": "Consensus",
+          "url": "https://consensus.app/",
+          "author": "consensus.app",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Answers plain-language research questions with synthesis from peer-reviewed papers, showing evidence behind each claim.",
+          "note": null
+        },
+        {
+          "title": "Research Rabbit",
+          "url": "https://www.researchrabbit.ai/",
+          "author": "researchrabbit.ai",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Visual maps of related literature from seed papers. Finds connections that keyword search misses. Free.",
+          "note": null
+        },
+        {
+          "title": "scite.ai – Smart Citations",
+          "url": "https://scite.ai/",
+          "author": "scite.ai",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Shows how a paper has been cited – whether subsequent papers supported, contradicted, or mentioned its findings.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "AMEE Guide No. 192: AI Tools in Scholarly Communication",
+          "url": "https://doi.org/10.1080/0142159X.2024.2395716",
+          "author": "Medical Teacher",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Covers AI disclosure obligations, appropriate uses, and ethical boundaries in the research writing workflow. Written for health professions.",
+          "note": null
+        },
+        {
+          "title": "ATLAS.ti AI Coding",
+          "url": "https://atlas.ti/ai",
+          "author": "ATLAS.ti",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "ATLAS.ti, NVivo, and MAXQDA now embed generative AI for thematic analysis and coding. Participant data may be processed through AI models during analysis.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

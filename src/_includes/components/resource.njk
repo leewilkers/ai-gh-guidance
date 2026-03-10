@@ -1,0 +1,25 @@
+<div class="resource-card" data-pagefind-index
+     {% if resource.tags %}data-tags="{{ resource.tags | join(',') }}"{% endif %}>
+  <p class="resource-card__title">
+    <a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">{{ resource.title }}</a>
+  </p>
+  <p class="resource-card__meta">
+    {{ resource.author }}{% if resource.source %} · {{ resource.source }}{% endif %}{% if resource.date %} · {{ resource.date }}{% endif %}
+  </p>
+  {%- if resource.description %}
+  <p class="resource-card__desc">{{ resource.description | safe }}</p>
+  {%- endif %}
+  {%- if resource.note %}
+  <p class="resource-card__note">{{ resource.note }}</p>
+  {%- endif %}
+  {%- if resource.tags and resource.tags.length %}
+  <div class="resource-card__tags">
+    {%- for tagId in resource.tags %}
+    {%- set tagColor = tagId | tagColor(tagDefs.tags) %}
+    <span class="tag tag--{{ tagColor }}" data-tag="{{ tagId }}">
+      {{ tagId | tagLabel(tagDefs.tags) }}
+    </span>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</div>

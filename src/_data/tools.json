@@ -1,0 +1,226 @@
+{
+  "section": {
+    "id": "tools",
+    "number": "",
+    "title": "Tool index",
+    "subtitle": "",
+    "intro": "AI tools for research, writing, meetings, and field work. Organized from everyday to technical – start where you are."
+  },
+  "tiers": [
+    {
+      "id": "everyday",
+      "label": "Everyday AI",
+      "resources": [
+        {
+          "title": "ChatGPT",
+          "url": "https://chat.openai.com",
+          "author": "",
+          "source": "OpenAI",
+          "date": "",
+          "tags": [],
+          "description": "General-purpose LLM. Web browsing, code execution, file analysis, image generation. 300M+ users. Free tier uses inputs for training; Plus/Team/Enterprise tiers don't.",
+          "note": "Best at: broad general tasks, voice mode, integration with other tools."
+        },
+        {
+          "title": "Claude",
+          "url": "https://claude.ai",
+          "author": "",
+          "source": "Anthropic",
+          "date": "",
+          "tags": [],
+          "description": "General-purpose LLM. 200K token context window, strong at analysis, summarization, and writing. Pro tier does not use inputs for training.",
+          "note": "Best at: long document analysis, careful reasoning, writing that needs nuance."
+        },
+        {
+          "title": "Gemini",
+          "url": "https://gemini.google.com",
+          "author": "",
+          "source": "Google",
+          "date": "",
+          "tags": [],
+          "description": "Google's LLM. Deep integration with Google Workspace – Docs, Sheets, Gmail, Drive. Free tier available.",
+          "note": "Best at: working with Google Workspace files you already have."
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research & Literature",
+      "resources": [
+        {
+          "title": "Elicit",
+          "url": "https://elicit.com",
+          "author": "",
+          "source": "Elicit",
+          "date": "",
+          "tags": [],
+          "description": "AI research assistant. Searches 138 million indexed papers, extracts data across studies, supports systematic review workflows.",
+          "note": "The best dedicated tool for literature work right now. I use it for every review."
+        },
+        {
+          "title": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/",
+          "author": "",
+          "source": "Allen Institute for AI",
+          "date": "",
+          "tags": [],
+          "description": "Free academic search engine with AI-generated summaries and citation context. Nonprofit – no commercial motive shaping results."
+        },
+        {
+          "title": "NotebookLM",
+          "url": "https://notebooklm.google.com",
+          "author": "",
+          "source": "Google",
+          "date": "",
+          "tags": [],
+          "description": "Upload documents, get AI analysis grounded in those sources only. 1M token context window, structured data extraction, audio summaries. Free.",
+          "note": "Good for synthesis across large document sets. Answers stay grounded in what you upload."
+        },
+        {
+          "title": "Consensus",
+          "url": "https://consensus.app/",
+          "author": "",
+          "source": "consensus.app",
+          "date": "",
+          "tags": [],
+          "description": "Ask plain-language research questions, get answers synthesized from peer-reviewed papers with evidence shown behind each claim."
+        },
+        {
+          "title": "Research Rabbit",
+          "url": "https://www.researchrabbit.ai/",
+          "author": "",
+          "source": "researchrabbit.ai",
+          "date": "",
+          "tags": [],
+          "description": "Visual citation mapping. Start with seed papers, find related work that keyword search misses. Free."
+        },
+        {
+          "title": "scite.ai",
+          "url": "https://scite.ai/",
+          "author": "",
+          "source": "scite.ai",
+          "date": "",
+          "tags": [],
+          "description": "Shows how papers have been cited – whether subsequent work supported, contradicted, or just mentioned findings."
+        }
+      ]
+    },
+    {
+      "id": "meetings",
+      "label": "Meetings & Notes",
+      "resources": [
+        {
+          "title": "Granola",
+          "url": "https://www.granola.ai/",
+          "author": "",
+          "source": "granola.ai",
+          "date": "",
+          "tags": [],
+          "description": "Ambient meeting transcription from laptop mic. No bot joins the call. Reusable templates, cross-meeting search.",
+          "note": "Records without other participants knowing. Understand consent implications before deploying."
+        },
+        {
+          "title": "ChatGPT Record Mode",
+          "url": "https://openai.com/index/chatgpt-record-mode/",
+          "author": "",
+          "source": "OpenAI",
+          "date": "",
+          "tags": [],
+          "description": "Records ambient audio through device microphone via the ChatGPT app. No bot, no notification to other participants.",
+          "note": "Same consent implications as Granola – other people in the room don't know."
+        },
+        {
+          "title": "Microsoft Copilot in Teams",
+          "url": "https://support.microsoft.com/en-us/copilot-teams",
+          "author": "",
+          "source": "Microsoft",
+          "date": "",
+          "tags": [],
+          "description": "Built into Microsoft 365. Summarizes meetings, drafts follow-ups, searches chat history. Data stays within your organization's tenant."
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "label": "Field & Global Health",
+      "resources": [
+        {
+          "title": "WHO EIOS 2.0",
+          "url": "https://www.who.int/initiatives/eios",
+          "author": "",
+          "source": "WHO",
+          "date": "",
+          "tags": [],
+          "description": "AI-powered platform for early detection of public health threats. Processes news, social media, and radio (speech-to-text) across 110+ countries.",
+          "note": "Free for public health agencies. Directly relevant to FETP and national surveillance programs."
+        },
+        {
+          "title": "HealthMap",
+          "url": "https://www.healthmap.org/",
+          "author": "",
+          "source": "Boston Children's Hospital",
+          "date": "",
+          "tags": [],
+          "description": "Automated disease surveillance using NLP to analyze real-time web data – news reports, health forums, official alerts."
+        },
+        {
+          "title": "ATLAS.ti",
+          "url": "https://atlas.ti/ai",
+          "author": "",
+          "source": "ATLAS.ti",
+          "date": "",
+          "tags": [],
+          "description": "AI-assisted qualitative coding for thematic analysis. Participant data may be processed through AI models during analysis.",
+          "note": "NVivo and MAXQDA also embed generative AI now. Check data handling policies before uploading participant data."
+        },
+        {
+          "title": "Turnitin",
+          "url": "https://www.turnitin.com/solutions/ai-writing",
+          "author": "",
+          "source": "Turnitin",
+          "date": "",
+          "tags": [],
+          "description": "AI writing detection integrated into plagiarism checking. False positive rates are a known issue – flags should prompt review, not automatic rejection."
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "label": "Technical",
+      "resources": [
+        {
+          "title": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "author": "",
+          "source": "Anthropic",
+          "date": "",
+          "tags": [],
+          "description": "Command-line AI coding assistant. Reads your codebase, writes and edits files, runs commands. Works in your terminal, not a separate app."
+        },
+        {
+          "title": "Cursor",
+          "url": "https://cursor.com",
+          "author": "",
+          "source": "Cursor",
+          "date": "",
+          "tags": [],
+          "description": "AI-native code editor built on VS Code. Autocomplete, chat, and codebase-aware editing. Lower barrier to entry than command-line tools."
+        },
+        {
+          "title": "Hugging Face",
+          "url": "https://huggingface.co",
+          "author": "",
+          "source": "Hugging Face",
+          "date": "",
+          "tags": [],
+          "description": "Open-source ML model hub. Host, share, and deploy models. Where most open-weight AI models live."
+        }
+      ]
+    }
+  ],
+  "callout": {
+    "title": "Not listed: Perplexity",
+    "body": "Perplexity is widely used but excluded here due to ongoing concerns about content scraping and publisher relations."
+  },
+  "warningCallout": null
+}

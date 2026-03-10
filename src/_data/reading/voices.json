@@ -1,0 +1,136 @@
+{
+  "section": {
+    "id": "voices",
+    "number": "VII",
+    "title": "People to follow",
+    "subtitle": "",
+    "intro": "Writers and projects that consistently surface information or analysis before it reaches mainstream coverage."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "Ethan Mollick / One Useful Thing",
+          "url": "https://www.oneusefulthing.org/",
+          "author": "Ethan Mollick",
+          "source": "Newsletter",
+          "date": "",
+          "tags": [],
+          "description": "Wharton professor. The single most useful person to follow for understanding how AI works in practice. Runs experiments, publishes findings, no hype."
+        },
+        {
+          "title": "Arvind Narayanan / AI as Normal Technology",
+          "url": "https://www.aisnakeoil.com/",
+          "author": "Arvind Narayanan & Sayash Kapoor",
+          "source": "Newsletter (formerly AI Snake Oil blog)",
+          "date": "",
+          "tags": [],
+          "description": "Princeton. Separates real AI capability from marketing claims. The companion book is in the Foundations section."
+        },
+        {
+          "title": "Simon Willison",
+          "url": "https://simonwillison.net/",
+          "author": "",
+          "source": "Blog & newsletter",
+          "date": "",
+          "tags": [],
+          "description": "Documents what AI tools actually do with code, screenshots, and reproducible examples. No hype, no dread."
+        },
+        {
+          "title": "Abeba Birhane",
+          "url": "https://abebabirhane.com/",
+          "author": "",
+          "source": "Research & writing",
+          "date": "",
+          "tags": [],
+          "description": "Ethiopian-born AI ethics researcher, Mozilla Fellow. Writes about data practices, annotation labor, and AI development from a Global South perspective."
+        },
+        {
+          "title": "Joy Buolamwini / Algorithmic Justice League",
+          "url": "https://www.ajl.org/",
+          "author": "",
+          "source": "Research institute",
+          "date": "",
+          "tags": [],
+          "description": "Facial recognition bias research that changed industry practices. Founded the Algorithmic Justice League. Memoir: \"Unmasking AI.\""
+        },
+        {
+          "title": "Meredith Whittaker",
+          "url": "https://signal.org/",
+          "author": "",
+          "source": "Signal Foundation",
+          "date": "",
+          "tags": [],
+          "description": "Signal president, AI Now Institute co-founder. Focuses on privacy, power, and the structural incentives behind AI deployment."
+        },
+        {
+          "title": "The Convivial Society",
+          "url": "https://theconvivialsociety.substack.com/",
+          "author": "L.M. Sacasas",
+          "source": "Newsletter",
+          "date": "",
+          "tags": [],
+          "description": "Technology criticism from the humanistic tradition – Illich, Ellul, Arendt. Focuses on what's lost when labor and cognition are mediated by machines."
+        },
+        {
+          "title": "Maggie Appleton",
+          "url": "https://maggieappleton.com/topics/artificial-intelligence",
+          "author": "",
+          "source": "Digital garden",
+          "date": "",
+          "tags": [],
+          "description": "Designer and anthropologist examining how metaphors shape understanding of technology. Visual essays on AI concepts."
+        },
+        {
+          "title": "Chain of Thought",
+          "url": "https://every.to/chain-of-thought",
+          "author": "Dan Shipper",
+          "source": "Every",
+          "date": "",
+          "tags": [],
+          "description": "Documents building a business with AI tools – what works, what breaks, what the experience teaches."
+        },
+        {
+          "title": "Don't Worry About the Vase",
+          "url": "https://thezvi.substack.com/",
+          "author": "Zvi Mowshowitz",
+          "source": "Newsletter",
+          "date": "",
+          "tags": [],
+          "description": "Dense AI news curation covering capability, policy, safety, and cultural commentary. Opinionated but transparent about reasoning."
+        },
+        {
+          "title": "DAIR Institute",
+          "url": "https://www.dair-institute.org/",
+          "author": "Timnit Gebru",
+          "source": "Research institute",
+          "date": "",
+          "tags": [],
+          "description": "AI research independent of corporate and governmental influence. Gebru and Torres developed the TESCREAL framework critiquing the overlapping ideologies driving AI development."
+        },
+        {
+          "title": "Tech Won't Save Us",
+          "url": "https://techwontsave.us/",
+          "author": "Paris Marx",
+          "source": "Podcast & newsletter",
+          "date": "",
+          "tags": [],
+          "description": "Technology, labor, and power. Interviews labor organizers, policy researchers, and critics who rarely appear in mainstream tech media."
+        },
+        {
+          "title": "Cybernetic Forests",
+          "url": "https://mail.cyberneticforests.com/",
+          "author": "",
+          "source": "Newsletter",
+          "date": "",
+          "tags": [],
+          "description": "Arts-and-criticism-inflected AI commentary. Less frequent, higher signal-to-noise ratio."
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

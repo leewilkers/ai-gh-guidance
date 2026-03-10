@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+---
+<main class="page">
+  {% include "components/sidebar.njk" %}
+
+  <div class="content" data-pagefind-body>
+    <header class="page-header">
+      <h1>{{ news.section.title }}</h1>
+      <p class="subtitle">{{ news.section.subtitle }}</p>
+    </header>
+
+    {%- if news.section.intro %}
+    <p class="section-intro">{{ news.section.intro }}</p>
+    {%- endif %}
+
+    <div class="news-feed">
+      {%- for resource in news.tiers[0].resources %}
+      <div class="resource-card" {% if resource.tags %}data-tags="{{ resource.tags | join(',') }}"{% endif %}>
+        <p class="resource-card__title">
+          <a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">{{ resource.title }}</a>
+        </p>
+        <p class="resource-card__meta">
+          {% if resource.author %}{{ resource.author }} · {% endif %}{{ resource.source }}{% if resource.date %} · {{ resource.date }}{% endif %}
+        </p>
+        {%- if resource.description %}
+        <p class="resource-card__desc">{{ resource.description | safe }}</p>
+        {%- endif %}
+      </div>
+      {%- endfor %}
+    </div>
+
+    {{ content | safe }}
+  </div>
+</main>

@@ -1,0 +1,73 @@
+{
+  "section": {
+    "id": "uncomfortable",
+    "number": "VI",
+    "title": "Open questions",
+    "subtitle": "",
+    "intro": "Unresolved problems: environmental cost, deployment in low-resource settings, transparency incentives, and whether AI is the right tool for the problem."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "The Transparency Paradox in AI Disclosure",
+          "url": "https://www.dovepress.com/transparency-paradox-ai-disclosure-peer-review-article-RMHP",
+          "author": "",
+          "source": "Risk Management and Healthcare Policy (Dove Medical Press)",
+          "date": "2025",
+          "tags": [],
+          "description": "Researchers avoid disclosing AI use because disclosure marks work as suspect, while non-disclosure carries no penalty. Transparency policies exist but the incentive structure punishes compliance."
+        },
+        {
+          "title": "Selective Non-Transparency in AI Use",
+          "url": "https://link.springer.com/article/10.1007/s00146-025-01234-5",
+          "author": "",
+          "source": "AI & Society (Springer)",
+          "date": "2025",
+          "tags": [],
+          "description": "Argues blanket AI disclosure requirements convert process knowledge into surveillance. Knowing exactly how a researcher used AI changes how peers evaluate the work – not always productively."
+        },
+        {
+          "title": "Deploying AI in LMICs: Is AI Even the Right Answer?",
+          "url": "https://www.dcinetwork.org/deploying-ai-lmics",
+          "author": "",
+          "source": "DCI Network",
+          "date": "2025",
+          "tags": [],
+          "description": "In many LMIC health contexts, the binding constraint is infrastructure, staffing, or supply chain – not information processing. Asks whether AI addresses the actual bottleneck."
+        },
+        {
+          "title": "AI's Hidden Carbon and Water Footprint",
+          "url": "https://research.vu.nl/en/publications/ais-hidden-carbon-water-footprint",
+          "author": "",
+          "source": "VU Amsterdam",
+          "date": "2025",
+          "tags": [],
+          "description": "Updated environmental impact data with calls for mandatory environmental reporting for AI deployments."
+        },
+        {
+          "title": "2026 Global Health Trends",
+          "url": "https://www.bayareaglobalhealth.org/blog/2026-global-health-trends",
+          "author": "",
+          "source": "Bay Area Global Health Alliance",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Places AI adoption in global health alongside climate migration, shifting funder priorities, and erosion of multilateral coordination."
+        },
+        {
+          "title": "Deploying Medical AI in Low-Resource Settings: A Scoping Review",
+          "url": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1522847/full",
+          "author": "",
+          "source": "Frontiers in Digital Health",
+          "date": "2026",
+          "tags": [],
+          "description": "Scoping review of AI health tools deployed in low-resource clinical settings. Performance degrades when infrastructure, data quality, and workflow conditions differ from the development context."
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

@@ -1,0 +1,24 @@
+<header class="site-header">
+  <a href="/" class="site-header__brand">AI Guidance</a>
+
+  <nav class="site-header__nav" aria-label="Main navigation">
+    {%- for link in nav.main %}
+    <a href="{{ link.url }}"
+       class="site-header__link{% if page.url.startsWith(link.url) %} is-active{% endif %}">
+      {{ link.label }}
+    </a>
+    {%- endfor %}
+  </nav>
+
+  <div class="site-header__actions">
+    <button class="search-trigger" aria-label="Search" data-search-trigger>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      Search
+      <span class="search-trigger__kbd">⌘K</span>
+    </button>
+    {% include "components/theme-toggle.njk" %}
+  </div>
+</header>

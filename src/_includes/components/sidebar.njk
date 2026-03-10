@@ -1,0 +1,36 @@
+<aside class="sidebar" role="navigation" aria-label="Section navigation">
+  <nav class="sidebar-nav">
+    <div class="sidebar-section">
+      <p class="sidebar-section-label">Guide</p>
+      {%- for item in nav.guide %}
+      <a href="{{ item.url }}"
+         class="sidebar-link{% if page.url == item.url %} is-active{% endif %}">
+        <span class="sidebar-num">{{ item.number }}</span>
+        {{ item.label }}
+      </a>
+      {%- endfor %}
+    </div>
+    <div class="sidebar-section">
+      <a href="/tools/"
+         class="sidebar-link{% if page.url == '/tools/' %} is-active{% endif %}">
+        Tools
+      </a>
+    </div>
+    <div class="sidebar-section">
+      <p class="sidebar-section-label">Reading</p>
+      {%- for item in nav.reading %}
+      <a href="{{ item.url }}"
+         class="sidebar-link{% if page.url == item.url %} is-active{% endif %}">
+        <span class="sidebar-num">{{ item.number }}</span>
+        {{ item.label }}
+      </a>
+      {%- endfor %}
+    </div>
+    <div class="sidebar-section">
+      <a href="/news/"
+         class="sidebar-link{% if page.url == '/news/' %} is-active{% endif %}">
+        News & Developments
+      </a>
+    </div>
+  </nav>
+</aside>

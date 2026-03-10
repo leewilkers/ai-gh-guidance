@@ -1,0 +1,103 @@
+{
+  "section": {
+    "id": "sovereignty",
+    "number": "IV",
+    "title": "AI and the Global South",
+    "subtitle": "",
+    "intro": "Who builds AI tools, who owns the training data, and what that means for health systems that depend on both."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "EVAH Initiative: $60M for Locally-Led AI Evaluation in LMICs",
+          "url": "https://wellcome.org/news/evah-initiative-ai-evaluation-low-middle-income-countries",
+          "author": "",
+          "source": "Wellcome Trust, Gates Foundation, Novo Nordisk Foundation",
+          "date": "February 2026",
+          "tags": [],
+          "description": "$60M initiative funding locally-led AI evaluation capacity in LMICs. Administered by J-PAL. Only 4 of 86 AI health RCTs have been conducted in LMICs."
+        },
+        {
+          "title": "America First, Africa Last? Health Data Deals",
+          "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003521",
+          "author": "",
+          "source": "PLOS Global Public Health",
+          "date": "2025",
+          "tags": [],
+          "description": "Documents health data extraction from Kenya, Rwanda, and Uganda through partnership agreements that give US/European institutions access with minimal reciprocal benefit."
+        },
+        {
+          "title": "AI, Digital Colonialism, and Africa's Future",
+          "url": "https://www.cambridge.org/core/journals/perspectives-on-politics/article/ai-digital-colonialism-and-africas-future/",
+          "author": "",
+          "source": "Cambridge University Press",
+          "date": "2025",
+          "tags": [],
+          "description": "98% of AI research originates from wealthy institutions. Maps the structural inequality in AI development, not just deployment."
+        },
+        {
+          "title": "Africa Declares AI Strategic Priority",
+          "url": "https://au.int/en/pressreleases/africa-ai-strategic-priority-2025",
+          "author": "",
+          "source": "African Union",
+          "date": "May 2025",
+          "tags": [],
+          "description": "Phase 1 implementation (2025–2026) of the AU Continental AI Strategy, building domestic capacity for AI development, evaluation, and regulation."
+        },
+        {
+          "title": "AI for Africa, by Africa",
+          "url": "https://www.unesco.org/en/articles/ai-africa-by-africa",
+          "author": "",
+          "source": "UNESCO",
+          "date": "October 2025",
+          "tags": [],
+          "description": "UNESCO program to train 15,000 civil servants, 5,000 judicial personnel, and 1,500 researchers across Africa in AI governance."
+        },
+        {
+          "title": "Digital Sovereignty in Africa",
+          "url": "https://www.policycenter.ma/publications/digital-sovereignty-africa-ai",
+          "author": "",
+          "source": "Policy Center for the New South",
+          "date": "October 2025",
+          "tags": [],
+          "description": "Maps infrastructure dependencies: undersea cables financed by tech giants, cloud services concentrated in a few companies, training data flowing out of the continent."
+        },
+        {
+          "title": "Data Colonialism and the Emerging Voice of the Global South",
+          "url": "https://www.taylorfrancis.com/books/oa-mono/10.4324/9781003182443/data-colonialism-emerging-voice-global-south-anita-gurumurthy-nandini-chami",
+          "author": "Anita Gurumurthy & Nandini Chami",
+          "source": "Taylor & Francis",
+          "date": "2024",
+          "tags": [],
+          "description": "Frames AI data extraction from the Global South as a structural continuation of colonial resource flows."
+        },
+        {
+          "title": "Ubuntu as an Ethical Framework for AI Governance",
+          "url": "https://cyber.harvard.edu/story/2020-06/operationalizing-ubuntu-and-data-justice",
+          "author": "Sabelo Mhlambi",
+          "source": "Carr Center, Harvard",
+          "date": "2020",
+          "tags": [],
+          "description": "Proposes Ubuntu – relational personhood, mutual obligation – as a foundation for AI governance that doesn't begin from Western liberal individualism."
+        },
+        {
+          "title": "The Costs of Connection",
+          "url": "https://www.sup.org/books/costs-connection",
+          "author": "Nick Couldry & Ulises Mejias",
+          "source": "Stanford University Press",
+          "date": "2020",
+          "tags": [],
+          "description": "Academic treatment of data colonialism as an analytical framework. The framework has become standard vocabulary for understanding AI adoption in contexts of structural inequality."
+        }
+      ]
+    }
+  ],
+  "callout": {
+    "title": "The sovereign AI movement",
+    "body": "Countries are building domestic AI capacity rather than depending on US and Chinese models. The AU Continental AI Strategy entered Phase 1 implementation in 2025. France, India, the UAE, and several AU member states have active strategies."
+  },
+  "warningCallout": null
+}

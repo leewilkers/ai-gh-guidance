@@ -1,0 +1,67 @@
+{
+  "section": {
+    "id": "policy",
+    "number": "V",
+    "title": "Regulatory landscape",
+    "subtitle": "As of March 2026",
+    "intro": "AI regulation by jurisdiction – EU AI Act, US federal preemption, African Union strategy, and the gaps between them."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "EU AI Act",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "author": "",
+          "source": "European Commission",
+          "date": "2024–2026 (phased enforcement)",
+          "tags": [],
+          "description": "First comprehensive AI regulation. Prohibited practices banned February 2025, financial penalties from August 2025, high-risk system requirements (including health AI) from August 2026. Finland was the first designated national enforcement authority."
+        },
+        {
+          "title": "US Executive Order: Federal Preemption of State AI Laws",
+          "url": "https://www.whitehouse.gov/presidential-actions/executive-order-ai-2025/",
+          "author": "",
+          "source": "White House",
+          "date": "December 2025",
+          "tags": [],
+          "description": "Executive order asserting federal preemption of state-level AI regulation, consolidating oversight aligned with industry preferences. Reversed the Biden administration's AI safety framework."
+        },
+        {
+          "title": "African Union Digital Transformation Strategy",
+          "url": "https://au.int/en/documents/20200518/digital-transformation-strategy-africa-2020-2030",
+          "author": "",
+          "source": "African Union",
+          "date": "2020 (updated 2025)",
+          "tags": [],
+          "description": "Framework for continental digital governance. The Continental AI Strategy entered Phase 1 implementation in 2025–2026."
+        },
+        {
+          "title": "SACHRP Terminated: Implications for AI Research Oversight",
+          "url": "https://www.hklaw.com/en/insights/publications/2025/04/hhs-restructuring-what-it-means-for-research-oversight",
+          "author": "",
+          "source": "Holland & Knight",
+          "date": "April 2025",
+          "tags": [],
+          "description": "SACHRP was terminated in March 2025 as part of HHS restructuring. Its 2024 recommendations on AI in human subjects research remain relevant, but the committee that would update guidance no longer exists."
+        },
+        {
+          "title": "The AI Data Governance Gap in Global Health Research",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0277953624006117",
+          "author": "Shipton & Vitale",
+          "source": "Social Science & Medicine",
+          "date": "October 2024",
+          "tags": [],
+          "description": "When a dataset collected under one consent regime is processed by an AI tool governed by a different jurisdiction's data protection laws, whose rules apply? The answer is usually unclear."
+        }
+      ]
+    }
+  ],
+  "callout": {
+    "title": "The governance gap is widening.",
+    "body": "AI capability advances faster than regulation. Regulatory bodies are being restructured (SACHRP terminated), enforcement realigned (US executive order preempting state laws), and new frameworks emerging (EU AI Act, AU Continental AI Strategy) without harmonization."
+  },
+  "warningCallout": null
+}

@@ -1,0 +1,10 @@
+<div class="tag-filter" data-tag-filter>
+  <span class="tag-filter__label">Filter</span>
+  {%- for tag in tagDefs.tags %}
+  <button class="tag tag--{{ tag.color }}"
+          data-tag="{{ tag.id }}"
+          aria-pressed="false">
+    {{ tag.label }}
+  </button>
+  {%- endfor %}
+</div>

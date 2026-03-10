@@ -1,0 +1,162 @@
+{
+  "section": {
+    "id": "org-policy",
+    "number": 8,
+    "title": "Organizational policy",
+    "subtitle": "",
+    "intro": "Policy templates, governance frameworks, and readiness assessments for organizations adopting AI tools.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "AI Policy Template for Nonprofits",
+          "url": "https://www.communityit.com/ai-policy-for-nonprofits/",
+          "author": "Community IT",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Customizable template with data classification framework. Distinguishes between data that can enter AI tools and data that cannot. Designed for organizations without dedicated IT policy staff.",
+          "note": null
+        },
+        {
+          "title": "AI Readiness for Nonprofits",
+          "url": "https://www.nten.org/article/ai-readiness-for-nonprofits/",
+          "author": "NTEN",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Framework for assessing organizational readiness across culture, capacity, and governance.",
+          "note": null
+        },
+        {
+          "title": "Fast Forward AI Policy Builder",
+          "url": "https://www.ffwd.org/ai-policy-builder/",
+          "author": "Fast Forward",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Step-by-step questionnaire that produces a customized draft AI policy covering data classification, approved tools, training requirements, and governance structure.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "The Emerging Agentic Enterprise",
+          "url": "https://sloanreview.mit.edu/article/the-emerging-agentic-enterprise/",
+          "author": "MIT Sloan Management Review",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "Identifies four tensions of agentic AI adoption: delegation vs. control, speed vs. oversight, capability vs. trust, individual vs. institutional.",
+          "note": null
+        },
+        {
+          "title": "Overcoming Organizational Barriers to AI Adoption",
+          "url": "https://hbr.org/2025/11/overcoming-organizational-barriers-to-ai-adoption",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Employee-centric AI adoption is 7x more effective than top-down mandates. The barrier is whether employees have input into how tools are chosen and deployed.",
+          "note": null
+        },
+        {
+          "title": "WHO: Ethics and Governance of AI for Health",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "author": "World Health Organization",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "WHO's governance principles for AI in health. Useful for connecting AI policy to existing ethical commitments.",
+          "note": null
+        },
+        {
+          "title": "HealthAI: AI Governance Resources for Health Organizations",
+          "url": "https://healthai.agency/",
+          "author": "HealthAI",
+          "source": "Geneva",
+          "date": "",
+          "tags": [],
+          "description": "Governance resources for health-sector organizations. Covers concerns specific to organizations handling health data and working with vulnerable populations. See also Section 7.",
+          "note": null
+        },
+        {
+          "title": "Ethically Aligned Design: A Vision for Prioritizing Human Well-Being",
+          "url": "https://standards.ieee.org/news/ieee-ead1e/",
+          "author": "IEEE",
+          "source": "",
+          "date": "2019",
+          "tags": [],
+          "description": "Framework for designing autonomous and intelligent systems that prioritize human well-being. Rooted in engineering ethics.",
+          "note": null
+        },
+        {
+          "title": "Stanford HAI: AI Governance Resources",
+          "url": "https://hai.stanford.edu/policy/ai-governance",
+          "author": "Stanford Human-Centered AI Institute",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Research-backed governance frameworks. More academic than the nonprofit templates.",
+          "note": null
+        },
+        {
+          "title": "Nonprofit AI Guide",
+          "url": "https://www.wholewhale.com/tips/nonprofit-ai-guide/",
+          "author": "Whole Whale",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Covers tool selection, training approaches, and policy development for nonprofits.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "Value Sensitive Design: Shaping Technology with Moral Imagination",
+          "url": "https://mitpress.mit.edu/9780262039536/value-sensitive-design/",
+          "author": "Batya Friedman",
+          "source": "MIT Press",
+          "date": "2019",
+          "tags": [],
+          "description": "Framework for designing technology that accounts for human values from the start. The values embedded in tool design shape what tools make easy and what they make invisible.",
+          "note": null
+        },
+        {
+          "title": "Harvard: Guidelines for Generative AI",
+          "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
+          "author": "Harvard University",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Conservative institutional AI policy. Instructive for seeing where a major institution drew its lines.",
+          "note": null
+        },
+        {
+          "title": "Considerations for Developing an AI Policy",
+          "url": "https://www.aicpa-cima.com/professional-insights/download/considerations-for-developing-an-ai-policy",
+          "author": "AICPA",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "From the accounting profession. The framework for risk assessment, data classification, and vendor evaluation applies broadly.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

@@ -1,0 +1,17 @@
+<details class="tier" open>
+  <summary>
+    <span class="tier-label">{{ capabilities.heading }}</span>
+    <span class="tier-count">({{ capabilities.items | length }})</span>
+  </summary>
+  <div class="tier-body">
+    <p class="capabilities__sub">{{ capabilities.subheading }}</p>
+    <ul class="capabilities__list">
+      {%- for item in capabilities.items %}
+      <li class="capabilities__item">
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.label }}</a>
+        <span class="capabilities__source">{{ item.source }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</details>

@@ -1,0 +1,117 @@
+{
+  "section": {
+    "id": "news",
+    "title": "News & developments",
+    "subtitle": "",
+    "intro": ""
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "Recent",
+      "resources": [
+        {
+          "title": "AI Doesn't Reduce Work – It Intensifies It",
+          "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+          "author": "Aruna Ranganathan & Xingqi Maggie Ye",
+          "source": "Harvard Business Review",
+          "date": "February 2026",
+          "tags": [],
+          "description": "Eight-month study of AI tool adoption at a tech company. Found work intensified rather than decreased."
+        },
+        {
+          "title": "Class-Action Suit Claims Otter AI Secretly Records Private Work Conversations",
+          "url": "https://www.npr.org/2025/08/15/g-s1-83087/otter-ai-transcription-class-action-lawsuit",
+          "author": "",
+          "source": "NPR",
+          "date": "August 2025",
+          "tags": [],
+          "description": "Otter's transcription app asks the host for recording permission but not other participants. Lawsuit alleges recordings are used to train AI models without consent. 25 million users."
+        },
+        {
+          "title": "AI Is Destroying the University and Learning Itself",
+          "url": "https://www.currentaffairs.org/news/ai-is-destroying-the-university-and-learning-itself",
+          "author": "",
+          "source": "Current Affairs",
+          "date": "December 2025",
+          "tags": [],
+          "description": "60% of surveyed students now admit to using AI to cheat, up from 40% a year ago."
+        },
+        {
+          "title": "SACHRP Terminated in HHS Restructuring",
+          "url": "https://www.hklaw.com/en/insights/publications/2025/04/hhs-restructuring-what-it-means-for-research-oversight",
+          "author": "",
+          "source": "Holland & Knight",
+          "date": "March 2025",
+          "tags": [],
+          "description": "The federal advisory committee for human research protections was terminated. Its 2024 recommendations on AI in human subjects research still stand, but the mechanism for updating guidance no longer exists."
+        },
+        {
+          "title": "Take It Down Act Signed Into Law",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+          "author": "",
+          "source": "Congress.gov",
+          "date": "May 2025",
+          "tags": [],
+          "description": "Federal law requiring platforms to remove nonconsensual intimate images and deepfakes. Platforms must comply by May 2026. The DEFIANCE Act adds a right to sue creators."
+        },
+        {
+          "title": "EVAH Initiative: $60M for Locally-Led AI Evaluation in LMICs",
+          "url": "https://wellcome.org/news/evah-initiative-ai-evaluation-low-middle-income-countries",
+          "author": "",
+          "source": "Wellcome Trust",
+          "date": "February 2026",
+          "tags": [],
+          "description": "$60M initiative funding locally-led AI evaluation capacity in LMICs. Administered by J-PAL. Only 4 of 86 AI health RCTs have been conducted in LMICs."
+        },
+        {
+          "title": "AI Medical Tools Show Bias and Potential for Patient Harm",
+          "url": "https://codex.ucsf.edu/news/editors-pick-study-finds-ai-medical-tools-show-bias-potential-misdiagnosis-and-patient-harm",
+          "author": "",
+          "source": "UCSF / CODEX",
+          "date": "2025",
+          "tags": [],
+          "description": "Nine AI programs tested on 1,000 ER cases. Recommendations changed based on race, gender, and income rather than the medical condition."
+        },
+        {
+          "title": "EU AI Act Enforcement Begins",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "author": "",
+          "source": "European Commission",
+          "date": "2025–2026",
+          "tags": [],
+          "description": "Prohibited practices banned February 2025. Financial penalties from August 2025. High-risk system requirements from August 2026."
+        },
+        {
+          "title": "WHO Launches EIOS 2.0 for Outbreak Detection",
+          "url": "https://www.who.int/news/item/13-10-2025-who-upgrades-its-public-health-intelligence-system-to-boost-global-health-security",
+          "author": "",
+          "source": "WHO",
+          "date": "October 2025",
+          "tags": [],
+          "description": "AI-powered epidemic intelligence platform, rebuilt with new data sources including speech-to-text for radio communications. Used by 110+ countries for early outbreak detection."
+        },
+        {
+          "title": "WEF Launches Pandemic Preparedness Engine with Agentic AI",
+          "url": "https://www.weforum.org/stories/2026/01/ai-global-preparedness-infectious-disease/",
+          "author": "",
+          "source": "World Economic Forum",
+          "date": "January 2026",
+          "tags": [],
+          "description": "End-to-end platform integrating genomic surveillance, epidemiological modeling, and vaccine development. Agentic AI framework for outbreak dynamics estimation. Part of CEPI's 100 Days Mission."
+        },
+        {
+          "title": "Global Health Governance in the Age of AI",
+          "url": "https://www.thinkglobalhealth.org/article/global-health-governance-age-ai",
+          "author": "",
+          "source": "Think Global Health (CFR)",
+          "date": "2025",
+          "tags": [],
+          "description": "How AI is reshaping global health governance structures – surveillance, resource allocation, and the power dynamics between institutions that build AI and those that deploy it."
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

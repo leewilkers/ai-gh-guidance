@@ -1,0 +1,82 @@
+{
+  "section": {
+    "id": "getting-started",
+    "number": 1,
+    "title": "Getting started",
+    "subtitle": "",
+    "intro": "LLMs (ChatGPT, Claude, Gemini) generate fluent text and fabricate facts with equal confidence. Orientation for first-time users.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "A Guide to Which AI to Use in the Agentic Era",
+          "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "February 2026",
+          "tags": [],
+          "description": "Decision framework for choosing which AI tool, interface, and level of automation to use for different tasks. Covers models, apps, and harnesses.",
+          "note": null
+        },
+        {
+          "title": "AI Snake Oil (Book & Blog)",
+          "url": "https://www.aisnakeoil.com/",
+          "author": "Arvind Narayanan & Sayash Kapoor",
+          "source": "Princeton University Press",
+          "date": "2024",
+          "tags": [],
+          "description": "Two Princeton computer scientists separate what AI can do from what's being oversold. Covers predictive AI (hiring algorithms, risk scores) and generative AI. The blog, now titled \"AI as Normal Technology,\" tracks claims against evidence.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "The Shape of AI",
+          "url": "https://www.oneusefulthing.org/p/the-shape-of-ai",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "December 2025",
+          "tags": [],
+          "description": "Maps where AI capability is advancing, where it's stuck, and why the boundary between what AI does well and what it doesn't remains uneven.",
+          "note": null
+        },
+        {
+          "title": "What AI Can Do With a Toolbox",
+          "url": "https://www.oneusefulthing.org/p/what-ai-can-do-with-a-toolbox",
+          "author": "Ethan Mollick",
+          "source": "One Useful Thing",
+          "date": "",
+          "tags": [],
+          "description": "AI with internet access, code execution, and file analysis. Practical examples of expanded capabilities beyond basic chat.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "Co-Intelligence: Living and Working with AI",
+          "url": "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
+          "author": "Ethan Mollick",
+          "source": "Portfolio/Penguin",
+          "date": "2024",
+          "tags": [],
+          "description": "Book-length treatment of working alongside AI. Covers creativity, education, and organizational change.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

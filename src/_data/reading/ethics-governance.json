@@ -1,0 +1,118 @@
+{
+  "section": {
+    "id": "ethics-governance",
+    "number": "III",
+    "title": "Ethics and governance",
+    "subtitle": "",
+    "intro": "AI ethics frameworks, governance gaps, and the distance between published principles and actual implementation."
+  },
+  "tiers": [
+    {
+      "id": "all",
+      "label": "All",
+      "resources": [
+        {
+          "title": "AI in Public Health: Promises, Challenges, and a Research Agenda",
+          "url": "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(25)00089-1/fulltext",
+          "author": "",
+          "source": "Lancet Public Health",
+          "date": "May 2025",
+          "tags": [],
+          "description": "Policy-facing agenda from European Observatory and WHO. Maps the gap between AI capability and the public health infrastructure needed to use it."
+        },
+        {
+          "title": "Informed Consent, Redefined",
+          "url": "https://petrieflom.law.harvard.edu/resources/article/informed-consent-redefined-ai",
+          "author": "",
+          "source": "Harvard Petrie-Flom Center",
+          "date": "April 2025",
+          "tags": [],
+          "description": "Traditional informed consent assumes specific, bounded uses of data. AI processing is neither. Examines how legal and ethical consent frameworks are mismatched with AI data practices."
+        },
+        {
+          "title": "Environmental Impact of AI Servers",
+          "url": "https://www.nature.com/articles/s41893-025-01234-5",
+          "author": "",
+          "source": "Nature Sustainability",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Estimates 731–1,125 million cubic meters of water and 24–44 megatons of CO2 annually from AI infrastructure. Each large data center consumes as much energy as 100,000 households."
+        },
+        {
+          "title": "Patient Consent for Secondary Use of Data in AI: A Scoping Review",
+          "url": "https://doi.org/10.1186/s12910-025-01045-7",
+          "author": "",
+          "source": "BMC Medical Ethics",
+          "date": "2025",
+          "tags": [],
+          "description": "Scoping review on how consent operates when data enters AI training sets. Once incorporated, data shapes all future predictions, making consent effectively irrevocable."
+        },
+        {
+          "title": "Governing AI in the World of Work",
+          "url": "https://www.ilo.org/publications/governing-ai-world-work",
+          "author": "",
+          "source": "International Labour Organization",
+          "date": "2025",
+          "tags": [],
+          "description": "Global review of ethics guidelines for AI in employment. Maps the gap between principle and practice across jurisdictions."
+        },
+        {
+          "title": "HealthAI: The Global Agency for Responsible AI in Health",
+          "url": "https://healthai.agency",
+          "author": "",
+          "source": "HealthAI (formerly I-DAIR Foundation)",
+          "date": "",
+          "tags": [],
+          "description": "Geneva-based nonprofit with 200+ institutional members coordinating a Global Regulatory Network for health AI. Rebranded from I-DAIR Foundation."
+        },
+        {
+          "title": "AI Consent Guide for IRB Protocols",
+          "url": "https://research.rutgers.edu/researcher-support/research-integrity/guidance-ai-research",
+          "author": "",
+          "source": "Rutgers University Office of Research",
+          "date": "",
+          "tags": [],
+          "description": "Consent language templates for research protocols involving AI."
+        },
+        {
+          "title": "SACHRP Terminated – What It Means for Research Oversight",
+          "url": "https://www.hklaw.com/en/insights/publications/2025/04/hhs-restructuring-what-it-means-for-research-oversight",
+          "author": "",
+          "source": "Holland & Knight",
+          "date": "April 2025",
+          "tags": [],
+          "description": "SACHRP was terminated in March 2025 as part of HHS restructuring. Its September 2024 recommendations on AI and human subjects research remain relevant, but the committee that would update federal guidance no longer exists."
+        },
+        {
+          "title": "Equity-First Standards for Health AI",
+          "url": "https://www.naacp.org/resources/artificial-intelligence-in-healthcare",
+          "author": "",
+          "source": "NAACP",
+          "date": "Late 2025",
+          "tags": [],
+          "description": "75-page report calling for bias audits, transparency reports, and community governance councils for health AI."
+        },
+        {
+          "title": "AI in Early Warning Systems for Infectious Disease Surveillance: A Systematic Review",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1609615/full",
+          "author": "",
+          "source": "Frontiers in Public Health",
+          "date": "2025",
+          "tags": [],
+          "description": "Systematic review of 67 studies on AI in outbreak early warning systems. Covers ML, NLP, and deep learning approaches. Key challenges: data quality, model transparency, and ethical considerations around privacy and equity."
+        },
+        {
+          "title": "Ethical Issues Raised by AI and Big Data in Population Health",
+          "url": "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2025.1536389/full",
+          "author": "",
+          "source": "Frontiers in Sociology",
+          "date": "2025",
+          "tags": [],
+          "description": "Scoping review of ethical issues in AI-driven population health: consent, labor, data sovereignty, and evidence of health data colonialism where AI researchers in high-income countries acquire LMIC data to avoid stricter regulations."
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

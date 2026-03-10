@@ -1,0 +1,145 @@
+{
+  "section": {
+    "id": "meetings",
+    "number": 2,
+    "title": "Meetings and recording",
+    "subtitle": "",
+    "intro": "AI meeting tools now record through laptop microphones with no visible indicator. Tools, consent requirements, and what organizations need to decide.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "ChatGPT Record Mode",
+          "url": "https://openai.com/index/chatgpt-record-mode/",
+          "author": "OpenAI",
+          "source": "",
+          "date": "June 2025",
+          "tags": [],
+          "description": "Native meeting recording through the ChatGPT app. Records ambient audio via device microphone with no bot joining and no notification to other participants.",
+          "note": null
+        },
+        {
+          "title": "Granola",
+          "url": "https://www.granola.ai/",
+          "author": "granola.ai",
+          "source": "",
+          "date": "2026",
+          "tags": [],
+          "description": "Meeting transcription from laptop microphone with no bot joining and no participant notification. Includes reusable templates, cross-meeting search, and an enterprise notification feature (pilot January 2026) that alerts other participants.",
+          "note": null
+        },
+        {
+          "title": "Guidance on Using AI Notetakers During Meetings",
+          "url": "https://fordham.edu/information-technology/ai-at-fordham/guidance-on-using-ai-notetakers-and-ai-assistants-during-meetings/",
+          "author": "Fordham University",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Institutional policy addressing consent, data retention, and meeting types where AI notetakers should not be used. Usable as a template.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "Ambient Listening AI in Clinical Settings",
+          "url": "https://journalofethics.ama-assn.org/article/ambient-listening-ai-clinical-settings/2025-11",
+          "author": "AMA Journal of Ethics",
+          "source": "",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Research on how patients alter behavior when AI records clinical encounters. Participants spoke differently, disclosed less, and filtered sensitive information.",
+          "note": null
+        },
+        {
+          "title": "NYC Bar Formal Opinion 2025-6: AI Recording Ethics",
+          "url": "https://www.nycbar.org/member-and-career-services/committees/reports-listing/reports/detail/formal-opinion-2025-6",
+          "author": "New York City Bar Association",
+          "source": "",
+          "date": "2025",
+          "tags": [],
+          "description": "Ethics opinion on AI recording with clients. Establishes that professional ethics require disclosure of AI recording regardless of whether recording is technically legal.",
+          "note": null
+        },
+        {
+          "title": "AI Meeting Recording: Multi-Jurisdiction Consent",
+          "url": "https://www.reedsmith.com/en/perspectives/ai-meeting-recording-consent",
+          "author": "Reed Smith LLP",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "In multi-jurisdiction calls, the most restrictive jurisdiction's consent rules apply. One all-party-consent participant triggers recording consent requirements for the entire meeting.",
+          "note": null
+        },
+        {
+          "title": "Overcoming Organizational Barriers to AI Adoption",
+          "url": "https://hbr.org/2025/11/overcoming-organizational-barriers-to-ai-adoption",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Organizations that center employees in AI adoption decisions are 7x more effective than those that mandate top-down.",
+          "note": null
+        },
+        {
+          "title": "AI Adoption Confidence Collapsing",
+          "url": "https://fortune.com/2026/01/ai-adoption-confidence-collapsing/",
+          "author": "Fortune",
+          "source": "",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Trust in company generative AI programs fell 31% in three months. Organizations that deploy AI tools without employee input see sharper confidence drops.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "SACHRP Recommendations on AI in Human Subjects Research",
+          "url": "https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-a-september-12-2024/index.html",
+          "author": "OHRP/SACHRP",
+          "source": "",
+          "date": "September 2024",
+          "tags": [],
+          "description": "Advisory committee recommendations on how AI tools intersect with human subjects protections.",
+          "note": "SACHRP was terminated in March 2025 as part of HHS restructuring (82,000 to 62,000 staff). The recommendations remain substantively relevant, but the institutional mechanism for updating federal AI guidance in research is gone."
+        },
+        {
+          "title": "AI Meeting Recording: Legal Risks and Wiretapping Laws",
+          "url": "https://www.jdsupra.com/legalnews/ai-meeting-recording-legal-risks-wiretapping/",
+          "author": "JD Supra",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Recording laws vary by jurisdiction. In many US states and most non-US jurisdictions, all parties must consent. Using an AI notetaker without disclosure creates legal liability.",
+          "note": null
+        },
+        {
+          "title": "Microsoft Copilot in Teams",
+          "url": "https://support.microsoft.com/en-us/copilot-teams",
+          "author": "Microsoft",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "For organizations using Microsoft 365, Copilot is built into Teams. Data stays within the tenant.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": {
+    "title": "The culture gap",
+    "body": "Many organizations ban meeting bots but haven't addressed tools that record through laptop microphones. ChatGPT's Record Mode, Granola, and similar tools capture ambient audio with no bot joining and no notification to other participants. Organizations that handle confidential partner relationships and sensitive population data need a stated position on ambient recording."
+  }
+}

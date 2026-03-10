@@ -1,0 +1,112 @@
+{
+  "section": {
+    "id": "manuscripts",
+    "number": 4,
+    "title": "Manuscripts and disclosure",
+    "subtitle": "",
+    "intro": "Publisher AI policies as of 2026. AI cannot be listed as author; use must be disclosed. Requirements vary by journal.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "ICMJE Recommendations (Updated 2024)",
+          "url": "https://www.icmje.org/recommendations/",
+          "author": "International Committee of Medical Journal Editors",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "The standard most medical journals follow. AI tools cannot be listed as authors. Authors must disclose AI use and take responsibility for AI-assisted content.",
+          "note": null
+        },
+        {
+          "title": "AMEE Guide No. 192: AI in Scholarly Communication",
+          "url": "https://doi.org/10.1080/0142159X.2024.2395716",
+          "author": "Medical Teacher",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Practical guidance on disclosure language, appropriate use cases, and boundaries. Includes example disclosure statements.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "COPE Position Statement: Three-Tier AI Classification",
+          "url": "https://publicationethics.org/cope-position-statements/ai-author",
+          "author": "Committee on Publication Ethics",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Classifies AI use into three tiers: assistive (spell-check, grammar – no disclosure needed), generative (text creation – requires disclosure), and prohibitive (unsupervised content generation – unacceptable).",
+          "note": null
+        },
+        {
+          "title": "Nature: AI Policy for Authors",
+          "url": "https://www.nature.com/nature/editorial-policies/ai",
+          "author": "Nature Portfolio",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "AI use must be disclosed in Methods or Acknowledgments. AI-generated images prohibited unless part of the research itself. AI copy editing exempt from disclosure.",
+          "note": null
+        },
+        {
+          "title": "Lancet Author Information",
+          "url": "https://www.thelancet.com/pb/assets/raw/Lancet/authors/tl-info-for-authors.pdf",
+          "author": "The Lancet",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Requires AI use disclosure. Prohibits AI authorship. Authors bear full responsibility for accuracy of AI-assisted content.",
+          "note": null
+        },
+        {
+          "title": "PLOS AI Policy",
+          "url": "https://journals.plos.org/plosone/s/editorial-and-peer-review-process",
+          "author": "PLOS",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Requires a specific AI use statement in submitted manuscripts. More prescriptive than most publishers about where and how to disclose.",
+          "note": null
+        },
+        {
+          "title": "Science: Nonhuman \"Authors\" and Implications for Integrity",
+          "url": "https://doi.org/10.1126/science.adg7879",
+          "author": "Science",
+          "source": "",
+          "date": "2023",
+          "tags": [],
+          "description": "Editorial arguing that AI-generated text without disclosure constitutes misconduct. The position: accountability requires a person.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "BMJ: AI and Academic Integrity",
+          "url": "https://www.bmj.com/content/384/bmj.q472",
+          "author": "BMJ",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "BMJ's position on AI use in peer review (by authors and reviewers) and the distinction between editorial assistance and content generation.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

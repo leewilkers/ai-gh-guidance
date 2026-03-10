@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+---
+<main class="page">
+  {% include "components/sidebar.njk" %}
+
+  <div class="content">
+    <header class="page-header page-header--home">
+      <h1>{{ site.title }}</h1>
+    </header>
+
+    <div class="home-intro">
+      <p>No one can keep up with all of this. Some people in global health use AI tools daily and find them genuinely useful. Others think the whole thing is overhyped, extractive, or ethically suspect – and they have good reasons. Most are somewhere in between: using the tools, uneasy about the trade-offs, unsure what their organization should be doing about it.</p>
+      <p>The honest questions range widely. Is this actually better than what I was doing before? What happens to participant data? Is the productivity story real or is it just more work? Who benefits from these systems and who bears the cost? Should we have a policy? Should we be refusing to use them entirely?</p>
+      <p>This resource takes all of those positions seriously. What's useful, what's concerning, and what's worth reading – organized by the questions that actually come up at work.</p>
+    </div>
+
+    {{ content | safe }}
+  </div>
+</main>
