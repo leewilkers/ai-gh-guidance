@@ -262,7 +262,7 @@
 
 .persona-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
   margin: 1rem 0;
 }
@@ -407,16 +407,16 @@
 /* ─── Home Intro ─── */
 
 .home-intro {
-  padding: 1.25rem 0;
+  padding: 0.75rem 0;
   border-bottom: 1px solid var(--border);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-style: italic;
-  line-height: 1.8;
-  color: var(--text-primary, var(--ink));
+  line-height: 1.6;
+  color: var(--muted);
 }
 
 .home-intro p {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.4rem;
 }
 
 .home-intro p:last-child {
@@ -571,5 +571,9 @@
 
   .persona-grid {
     grid-template-columns: 1fr;
+  }
+
+  .persona-card__desc {
+    font-size: 0.8rem;
   }
 }
