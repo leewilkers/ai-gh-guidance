@@ -1,4 +1,9 @@
+const { HtmlBasePlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
+  // Rewrite all URLs to include the GitHub Pages path prefix
+  eleventyConfig.addPlugin(HtmlBasePlugin);
+
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/assets");
 
@@ -57,6 +62,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
     },
+    pathPrefix: "/ai-gh-guidance/",
     templateFormats: ["njk", "md", "html"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
