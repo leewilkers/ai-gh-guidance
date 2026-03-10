@@ -409,7 +409,8 @@
 .home-intro {
   padding: 1.25rem 0;
   border-bottom: 1px solid var(--border);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
+  font-style: italic;
   line-height: 1.8;
   color: var(--text-primary, var(--ink));
 }

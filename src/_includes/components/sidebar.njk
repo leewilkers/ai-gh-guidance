@@ -11,12 +11,6 @@
       {%- endfor %}
     </div>
     <div class="sidebar-section">
-      <a href="/tools/"
-         class="sidebar-link{% if page.url == '/tools/' %} is-active{% endif %}">
-        Tools
-      </a>
-    </div>
-    <div class="sidebar-section">
       <p class="sidebar-section-label">Reading</p>
       {%- for item in nav.reading %}
       <a href="{{ item.url }}"
@@ -30,6 +24,12 @@
       <a href="/news/"
          class="sidebar-link{% if page.url == '/news/' %} is-active{% endif %}">
         News & Developments
+      </a>
+    </div>
+    <div class="sidebar-section">
+      <a href="/tools/"
+         class="sidebar-link{% if page.url == '/tools/' %} is-active{% endif %}">
+        Tools
       </a>
     </div>
   </nav>
