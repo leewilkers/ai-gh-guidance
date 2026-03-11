@@ -109,6 +109,34 @@
           "tags": [],
           "description": "AI and global health governance: surveillance, resource allocation, and power dynamics between institutions that build AI and those that deploy it."
         }
+        ,
+        {
+          "title": "BEACON: Open-Source AI for Disease Surveillance",
+          "url": "https://www.bu.edu/sph/news/articles/2025/beacon-open-source-ai-surveillance/",
+          "author": "",
+          "source": "Boston University",
+          "date": "April 2025",
+          "tags": [],
+          "description": "Open-source AI surveillance system launched with custom LLM for infectious disease signal detection across global data streams."
+        },
+        {
+          "title": "AI-Generated Medical Data Sidesteps Ethics Review",
+          "url": "https://www.nature.com/articles/d41586-025-02891-6",
+          "author": "",
+          "source": "Nature",
+          "date": "September 2025",
+          "tags": [],
+          "description": "Four medical centers now waive ethics review for studies using AI-generated synthetic data. No federal guidance on when synthetic data requires human subjects review."
+        },
+        {
+          "title": "DHIS2 AI Alert Triage Deployed in Tanzania",
+          "url": "https://dhis2.org/",
+          "author": "",
+          "source": "DHIS2",
+          "date": "2025",
+          "tags": [],
+          "description": "Disease alert processing reduced from 36 hours to near-instant using AI triage integrated into DHIS2. Pilot across multiple Tanzanian health districts."
+        }
       ]
     }
   ],

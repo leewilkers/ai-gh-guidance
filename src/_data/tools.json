@@ -18,6 +18,7 @@
           "source": "OpenAI",
           "date": "",
           "tags": [],
+          "roles": ["generalist"],
           "description": "General-purpose LLM. Web browsing, code execution, file analysis, image generation. 300M+ users. Free tier uses inputs for training; Plus/Team/Enterprise tiers don't.",
           "note": "Best at: broad general tasks, voice mode, integration with other tools."
         },
@@ -28,6 +29,7 @@
           "source": "Anthropic",
           "date": "",
           "tags": [],
+          "roles": ["generalist", "researcher"],
           "description": "General-purpose LLM. Strong at analysis, summarization, and writing. Pro tier does not use inputs for training.",
           "note": "Best at: long document analysis, careful reasoning, writing that needs nuance."
         },
@@ -38,6 +40,7 @@
           "source": "Google",
           "date": "",
           "tags": [],
+          "roles": ["generalist", "manager"],
           "description": "Google's LLM. Deep integration with Google Workspace – Docs, Sheets, Gmail, Drive. Free tier available.",
           "note": "Best at: working with Google Workspace files you already have."
         }
@@ -54,6 +57,7 @@
           "source": "Elicit",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "AI research assistant. Searches 138 million indexed papers, extracts data across studies, supports systematic review workflows.",
           "note": "I use it for every review."
         },
@@ -64,6 +68,7 @@
           "source": "Allen Institute for AI",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "Free academic search engine with AI-generated summaries and citation context. Nonprofit – no commercial motive shaping results."
         },
         {
@@ -73,6 +78,7 @@
           "source": "Google",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "Upload documents, get AI analysis grounded in those sources only. 1M token context window, structured data extraction, audio summaries. Free.",
           "note": "Good for synthesis across large document sets. Answers stay grounded in what you upload."
         },
@@ -83,6 +89,7 @@
           "source": "consensus.app",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "Ask plain-language research questions, get answers synthesized from peer-reviewed papers with evidence shown behind each claim."
         },
         {
@@ -92,6 +99,7 @@
           "source": "researchrabbit.ai",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "Visual citation mapping. Start with seed papers, find related work that keyword search misses. Free."
         },
         {
@@ -101,6 +109,7 @@
           "source": "Perplexity AI",
           "date": "",
           "tags": [],
+          "roles": ["researcher", "generalist"],
           "description": "AI search engine with academic mode and Deep Research. Produces cited responses. Verify citations against primary sources – fabrication still happens.",
           "note": "Useful for quick literature scans. Has faced criticism over content scraping, but now has publisher licensing deals."
         },
@@ -111,7 +120,19 @@
           "source": "scite.ai",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "Shows how papers have been cited – whether subsequent work supported, contradicted, or just mentioned findings."
+        },
+        {
+          "title": "Delve",
+          "url": "https://delvetool.com/",
+          "author": "",
+          "source": "Delve",
+          "date": "",
+          "tags": [],
+          "roles": ["researcher"],
+          "description": "Qualitative analysis tool with AI peer debriefer. Designed for thematic analysis workflows.",
+          "note": null
         }
       ]
     },
@@ -126,6 +147,7 @@
           "source": "granola.ai",
           "date": "",
           "tags": [],
+          "roles": ["manager", "generalist"],
           "description": "Ambient meeting transcription from laptop mic. No bot joins the call. Reusable templates, cross-meeting search.",
           "note": "Records without other participants knowing. Understand consent implications before deploying."
         },
@@ -136,6 +158,7 @@
           "source": "OpenAI",
           "date": "",
           "tags": [],
+          "roles": ["manager", "generalist"],
           "description": "Records ambient audio through device microphone via the ChatGPT app. No bot, no notification to other participants.",
           "note": "Same consent implications as Granola – other people in the room don't know."
         },
@@ -146,6 +169,7 @@
           "source": "Microsoft",
           "date": "",
           "tags": [],
+          "roles": ["manager"],
           "description": "Built into Microsoft 365. Summarizes meetings, drafts follow-ups, searches chat history. Data stays within your organization's tenant."
         }
       ]
@@ -161,6 +185,7 @@
           "source": "WHO",
           "date": "",
           "tags": [],
+          "roles": ["epi"],
           "description": "AI-powered platform for early detection of public health threats. Processes news, social media, and radio (speech-to-text) across 110+ countries.",
           "note": "Free for public health agencies. Directly relevant to FETP and national surveillance programs."
         },
@@ -171,6 +196,7 @@
           "source": "Boston Children's Hospital",
           "date": "",
           "tags": [],
+          "roles": ["epi"],
           "description": "Automated disease surveillance using NLP to analyze real-time web data – news reports, health forums, official alerts."
         },
         {
@@ -180,6 +206,7 @@
           "source": "ATLAS.ti",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "AI-assisted qualitative coding for thematic analysis. Participant data may be processed through AI models during analysis.",
           "note": "NVivo and MAXQDA also embed generative AI now. Check data handling policies before uploading participant data."
         },
@@ -190,7 +217,63 @@
           "source": "Turnitin",
           "date": "",
           "tags": [],
+          "roles": ["researcher"],
           "description": "AI writing detection integrated into plagiarism checking. False positive rates are a known issue – flags should prompt review, not automatic rejection."
+        },
+        {
+          "title": "BEACON",
+          "url": "https://www.bu.edu/sph/news/articles/2025/beacon-open-source-ai-surveillance/",
+          "author": "",
+          "source": "Boston University",
+          "date": "April 2025",
+          "tags": [],
+          "roles": ["epi"],
+          "description": "Open-source AI surveillance system. Custom LLM (PandemIQ Llama) scans global data for infectious disease signals. Free, open-source.",
+          "note": null
+        },
+        {
+          "title": "SORMAS + SORMAS.AI",
+          "url": "https://sormas.org/",
+          "author": "",
+          "source": "Helmholtz Centre",
+          "date": "",
+          "tags": [],
+          "roles": ["epi"],
+          "description": "Open-source outbreak management for African health systems. SORMAS.AI adds AI-assisted case classification and trajectory prediction.",
+          "note": null
+        },
+        {
+          "title": "qXR (Qure.ai)",
+          "url": "https://www.qure.ai/product/qxr",
+          "author": "",
+          "source": "Qure.ai",
+          "date": "",
+          "tags": [],
+          "roles": ["epi"],
+          "description": "WHO-recommended AI for TB chest X-ray screening. Deployed in 40+ countries.",
+          "note": null
+        },
+        {
+          "title": "SaTScan",
+          "url": "https://www.satscan.org/",
+          "author": "",
+          "source": "Martin Kulldorff",
+          "date": "",
+          "tags": [],
+          "roles": ["epi", "data"],
+          "description": "Spatial and space-time cluster detection for disease surveillance. Free. Standard FETP tool.",
+          "note": null
+        },
+        {
+          "title": "ReDPeTT",
+          "url": "https://www.tephinet.org/tephinet-programs/redpett",
+          "author": "",
+          "source": "TEPHINET",
+          "date": "",
+          "tags": [],
+          "roles": ["epi"],
+          "description": "FETP project tracking system. Becoming mandatory in 2026.",
+          "note": null
         }
       ]
     },
@@ -205,6 +288,7 @@
           "source": "Anthropic",
           "date": "",
           "tags": [],
+          "roles": ["data"],
           "description": "Command-line AI coding assistant. Reads your codebase, writes and edits files, runs commands. Works in your terminal, not a separate app."
         },
         {
@@ -214,6 +298,7 @@
           "source": "Cursor",
           "date": "",
           "tags": [],
+          "roles": ["data"],
           "description": "AI-native code editor built on VS Code. Autocomplete, chat, and codebase-aware editing. Lower barrier to entry than command-line tools."
         },
         {
@@ -223,7 +308,19 @@
           "source": "Hugging Face",
           "date": "",
           "tags": [],
+          "roles": ["data"],
           "description": "Open-source ML model hub. Host, share, and deploy models. Where most open-weight AI models live."
+        },
+        {
+          "title": "AMRFinderPlus",
+          "url": "https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/",
+          "author": "",
+          "source": "NCBI",
+          "date": "",
+          "tags": [],
+          "roles": ["data", "epi"],
+          "description": "Genomic antimicrobial resistance detection. Identifies resistance genes and point mutations from assembled genomes.",
+          "note": null
         }
       ]
     }

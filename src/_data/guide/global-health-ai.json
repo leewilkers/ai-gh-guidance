@@ -1,0 +1,132 @@
+{
+  "section": {
+    "id": "global-health-ai",
+    "number": 10,
+    "title": "AI in global health",
+    "subtitle": "",
+    "intro": "AI tools built for or deployed in global health systems — disease surveillance, diagnostics, outbreak response, and field epidemiology.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Disease Surveillance",
+      "resources": [
+        {
+          "title": "BEACON: Open-Source AI Surveillance",
+          "url": "https://www.bu.edu/sph/news/articles/2025/beacon-open-source-ai-surveillance/",
+          "author": "",
+          "source": "Boston University SPH",
+          "date": "April 2025",
+          "tags": [],
+          "description": "Open-source surveillance system using PandemIQ Llama (custom LLM) to scan global data streams for infectious disease signals.",
+          "note": null
+        },
+        {
+          "title": "WHO EIOS 2.0",
+          "url": "https://www.who.int/initiatives/eios",
+          "author": "",
+          "source": "WHO",
+          "date": "October 2025",
+          "tags": [],
+          "description": "AI-powered epidemic intelligence. Processes news, social media, and radio (speech-to-text) across 110+ countries for early outbreak detection.",
+          "note": null
+        },
+        {
+          "title": "DHIS2 AI Integrations",
+          "url": "https://dhis2.org/",
+          "author": "",
+          "source": "DHIS2 / University of Oslo",
+          "date": "2025",
+          "tags": [],
+          "description": "AI alert triage in Tanzania: disease alert processing from 36 hours to near-instant. Also: NLP queries for non-technical users and CHAP climate-health forecasting.",
+          "note": null
+        },
+        {
+          "title": "SORMAS + SORMAS.AI",
+          "url": "https://sormas.org/",
+          "author": "",
+          "source": "Helmholtz Centre for Infection Research",
+          "date": "",
+          "tags": [],
+          "description": "Open-source outbreak management system deployed across African health systems. SORMAS.AI adds predictive modeling for case classification and outbreak trajectory.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Diagnostics & Field Tools",
+      "resources": [
+        {
+          "title": "qXR (Qure.ai) — AI TB Screening",
+          "url": "https://www.qure.ai/product/qxr",
+          "author": "",
+          "source": "Qure.ai",
+          "date": "",
+          "tags": [],
+          "description": "WHO-recommended AI tool for TB X-ray screening. Deployed in 40+ countries alongside CAD4TB and Lunit INSIGHT CXR.",
+          "note": null
+        },
+        {
+          "title": "iMAGING — Solar-Powered Malaria Microscopy",
+          "url": "https://imaging-malaria.org/",
+          "author": "",
+          "source": "iMAGING Project",
+          "date": "",
+          "tags": [],
+          "description": "Automated malaria diagnosis in 3 minutes 48 seconds. Solar-powered, works offline. Designed for settings where trained microscopists aren't available.",
+          "note": null
+        },
+        {
+          "title": "AMRFinderPlus",
+          "url": "https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/",
+          "author": "",
+          "source": "NCBI",
+          "date": "",
+          "tags": [],
+          "description": "NCBI's genomic AMR detection tool. Identifies resistance genes and point mutations from assembled genomes or nucleotide sequences.",
+          "note": null
+        },
+        {
+          "title": "SaTScan — Cluster Detection",
+          "url": "https://www.satscan.org/",
+          "author": "",
+          "source": "Martin Kulldorff",
+          "date": "",
+          "tags": [],
+          "description": "Spatial, temporal, and space-time cluster detection for disease surveillance. Free. Standard FETP tool for outbreak investigation.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "Qualitative & FETP Tools",
+      "resources": [
+        {
+          "title": "Delve — AI Qualitative Analysis",
+          "url": "https://delvetool.com/",
+          "author": "",
+          "source": "Delve",
+          "date": "",
+          "tags": [],
+          "description": "Qualitative analysis tool with AI peer debriefer feature. Designed for thematic analysis workflows.",
+          "note": null
+        },
+        {
+          "title": "ReDPeTT — FETP Project Tracking",
+          "url": "https://www.tephinet.org/tephinet-programs/redpett",
+          "author": "",
+          "source": "TEPHINET",
+          "date": "",
+          "tags": [],
+          "description": "FETP project tracking system becoming mandatory in 2026. Replaces ad hoc tracking across field epidemiology training programs.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": null,
+  "warningCallout": null
+}

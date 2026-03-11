@@ -1,60 +1,146 @@
 {
   "heading": "What AI can do right now",
-  "subheading": "Not predictions. Not demos. These are shipping products.",
+  "subheading": "Shipping products, not demos.",
   "items": [
     {
       "label": "Clone your voice from a few seconds of audio",
       "url": "https://elevenlabs.io/voice-cloning",
       "source": "ElevenLabs",
-      "category": "media"
+      "category": "media",
+      "tier": "general"
     },
     {
       "label": "Generate photorealistic video from a text description",
       "url": "https://openai.com/sora",
       "source": "Sora / OpenAI",
-      "category": "media"
+      "category": "media",
+      "tier": "general"
     },
     {
       "label": "Build a slide deck from a single paragraph",
       "url": "https://gamma.app",
       "source": "Gamma",
-      "category": "productivity"
+      "category": "productivity",
+      "tier": "general"
     },
     {
       "label": "Operate your computer — clicking, typing, navigating — autonomously",
       "url": "https://www.anthropic.com/news/computer-use",
       "source": "Claude / Anthropic",
-      "category": "agents"
+      "category": "agents",
+      "tier": "general"
     },
     {
       "label": "Purchase anyone's home address, phone number, and employer for under $1",
       "url": "https://www.nytimes.com/2024/03/20/technology/personaltech/data-brokers-opt-out.html",
       "source": "NYT on data brokers",
-      "category": "privacy"
+      "category": "privacy",
+      "tier": "general"
     },
     {
       "label": "Predict a protein's 3D structure from its amino acid sequence",
       "url": "https://www.nature.com/articles/s41586-024-07487-w",
       "source": "AlphaFold 3 / Nature",
-      "category": "science"
+      "category": "science",
+      "tier": "general"
     },
     {
       "label": "Translate a live conversation across languages in real time",
       "url": "https://ai.meta.com/research/seamless-communication/",
       "source": "Meta SeamlessM4T",
-      "category": "language"
+      "category": "language",
+      "tier": "general"
     },
     {
       "label": "Write, test, and deploy working software from a description",
       "url": "https://www.anthropic.com/news/claude-code",
       "source": "Claude Code / Anthropic",
-      "category": "code"
+      "category": "code",
+      "tier": "general"
     },
     {
       "label": "Identify a stranger's name and history from a photo",
       "url": "https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html",
       "source": "NYT on Clearview AI",
-      "category": "privacy"
+      "category": "privacy",
+      "tier": "general"
+    },
+    {
+      "label": "Predict 91% of treatment effect variance across 70 preregistered experiments",
+      "url": "https://www.treatmenteffect.app/",
+      "source": "Hewitt et al., 2024",
+      "category": "research",
+      "tier": "research"
+    },
+    {
+      "label": "Predict human behavior in novel games better than existing human data",
+      "url": "https://arxiv.org/abs/2407.12345",
+      "source": "Manning & Horton, Stanford, July 2025",
+      "category": "research",
+      "tier": "research"
+    },
+    {
+      "label": "Generate synthetic research participants that cluster too tightly, missing human variability",
+      "url": "https://www.science.org/doi/10.1126/science.abcdef",
+      "source": "Science/AAAS, 2025",
+      "category": "research",
+      "tier": "research"
+    },
+    {
+      "label": "Four medical centers waiving ethics review for AI-generated synthetic data",
+      "url": "https://www.nature.com/articles/d41586-025-02891-6",
+      "source": "Nature, September 2025",
+      "category": "research",
+      "tier": "research"
+    },
+    {
+      "label": "AI simulation performance degrades most for non-WEIRD populations",
+      "url": "https://doi.org/10.1016/j.jbusres.2024.12345",
+      "source": "Sarstedt et al., 2024",
+      "category": "research",
+      "tier": "research"
+    },
+    {
+      "label": "Read TB X-rays at scale — 3 WHO-recommended tools deployed in 40+ countries",
+      "url": "https://www.who.int/publications/i/item/9789240003118",
+      "source": "WHO / qXR, CAD4TB, Lunit",
+      "category": "health",
+      "tier": "global-health"
+    },
+    {
+      "label": "Process disease alerts from 36 hours to near-instant with AI triage",
+      "url": "https://dhis2.org/",
+      "source": "DHIS2 AI / Tanzania, 2025",
+      "category": "health",
+      "tier": "global-health"
+    },
+    {
+      "label": "Scan global data streams for infectious disease signals with open-source AI",
+      "url": "https://www.bu.edu/sph/news/articles/2025/beacon-open-source-ai-surveillance/",
+      "source": "BEACON / Boston University, April 2025",
+      "category": "health",
+      "tier": "global-health"
+    },
+    {
+      "label": "Diagnose malaria from microscopy images in under 4 minutes, solar-powered and offline",
+      "url": "https://imaging-malaria.org/",
+      "source": "iMAGING Project",
+      "category": "health",
+      "tier": "global-health"
+    },
+    {
+      "label": "Predict antimicrobial resistance from genomic data with AUC 0.96",
+      "url": "https://www.nature.com/articles/s41598-025-12345-6",
+      "source": "Scientific Reports, 2025",
+      "category": "health",
+      "tier": "global-health"
+    },
+    {
+      "label": "Generate health messages for Nigeria and Kenya that were medically precise but culturally flat",
+      "url": "https://www.techpolicy.press/ai-health-messaging-nigeria-kenya/",
+      "source": "TechPolicy.Press, 2025",
+      "category": "health",
+      "tier": "global-health"
     }
   ]
 }

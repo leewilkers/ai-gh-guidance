@@ -21,3 +21,7 @@
 :root[data-theme="dark"] body::before {
   opacity: 0.8;
 }
+
+:root[data-theme="dark"] .frontmatter {
+  color: var(--ink);
+}

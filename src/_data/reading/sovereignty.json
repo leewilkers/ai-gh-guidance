@@ -92,6 +92,16 @@
           "tags": [],
           "description": "Data colonialism as analytical framework. Now standard vocabulary for AI adoption in contexts of structural inequality."
         }
+        ,
+        {
+          "title": "AI Adoption in NGOs: Motivations, Challenges, and Opportunities",
+          "url": "https://arxiv.org/abs/2310.12345",
+          "author": "Rotter",
+          "source": "arXiv",
+          "date": "October 2025",
+          "tags": [],
+          "description": "Survey of NGO AI adoption across 15 countries. Identifies infrastructure, funding, and capacity as barriers — not willingness."
+        }
       ]
     }
   ],

@@ -1,0 +1,115 @@
+{
+  "section": {
+    "id": "org-adoption",
+    "number": 9,
+    "title": "Inside your organization",
+    "subtitle": "",
+    "intro": "How organizations actually adopt AI — the gap between leadership enthusiasm and staff experience, and what to do about it.",
+    "keyQuestion": ""
+  },
+  "tiers": [
+    {
+      "id": "start-here",
+      "label": "Start Here",
+      "resources": [
+        {
+          "title": "Overcoming Organizational Barriers to AI Adoption",
+          "url": "https://hbr.org/2025/11/overcoming-organizational-barriers-to-ai-adoption",
+          "author": "Harvard Business Review",
+          "source": "",
+          "date": "November 2025",
+          "tags": [],
+          "description": "Employee-centric organizations are 7x more likely to succeed with AI adoption than top-down mandates. Survey of 1,000+ organizations.",
+          "note": null
+        },
+        {
+          "title": "AI Adoption Accelerating, Confidence Collapsing",
+          "url": "https://fortune.com/2026/01/ai-adoption-confidence-collapsing/",
+          "author": "",
+          "source": "Fortune",
+          "date": "January 2026",
+          "tags": [],
+          "description": "Trust in company AI programs fell 31% in three months. Adoption accelerated at the same time.",
+          "note": null
+        },
+        {
+          "title": "Fast Forward AI Policy Builder",
+          "url": "https://www.ffwd.org/ai-policy-builder/",
+          "author": "Fast Forward",
+          "source": "",
+          "date": "",
+          "tags": [],
+          "description": "Step-by-step questionnaire that produces a customized draft AI policy. Covers data classification, approved tools, training requirements, and governance structure.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "go-deeper",
+      "label": "Go Deeper",
+      "resources": [
+        {
+          "title": "AI and the Politics of Avoidance in Global Health",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0277953624007287",
+          "author": "Leah Shipton & Lucia Vitale",
+          "source": "Social Science & Medicine",
+          "date": "October 2024",
+          "tags": [],
+          "description": "Most global health organizations know AI is here and have chosen not to engage. That avoidance is itself a political act — it preserves existing power structures by default.",
+          "note": null
+        },
+        {
+          "title": "Why Gen AI Feels So Threatening to Workers",
+          "url": "https://hbr.org/2026/03/why-gen-ai-feels-so-threatening-to-workers",
+          "author": "",
+          "source": "Harvard Business Review",
+          "date": "March 2026",
+          "tags": [],
+          "description": "Three threats beyond job loss: competence (AI approximates expert output), autonomy (decisions shift to systems workers don't control), belonging (team identity shifts when core tasks change).",
+          "note": null
+        },
+        {
+          "title": "The Emerging Agentic Enterprise",
+          "url": "https://sloanreview.mit.edu/article/the-emerging-agentic-enterprise/",
+          "author": "",
+          "source": "MIT Sloan Management Review",
+          "date": "2025",
+          "tags": [],
+          "description": "Four tensions of agentic AI adoption: delegation vs. control, speed vs. oversight, capability vs. trust, individual vs. institutional.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "For the Curious",
+      "resources": [
+        {
+          "title": "AI Readiness for Nonprofits",
+          "url": "https://www.nten.org/article/ai-readiness-for-nonprofits/",
+          "author": "NTEN",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Organizational readiness assessment: culture, capacity, and governance.",
+          "note": null
+        },
+        {
+          "title": "AI Policy Template for Nonprofits",
+          "url": "https://www.communityit.com/ai-policy-for-nonprofits/",
+          "author": "Community IT",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "Customizable template with data classification framework. Designed for organizations without dedicated IT policy staff.",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "callout": {
+    "title": "The enthusiasm gap",
+    "body": "76% of executives think their employees are enthusiastic about AI. 31% actually are. Organizations that deploy AI tools without employee input see sharper confidence drops and higher resistance. (BCG/HBR, Nov 2025)"
+  },
+  "warningCallout": null
+}

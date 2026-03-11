@@ -43,6 +43,17 @@ layout: layouts/base.njk
     </div>
     {%- endif %}
 
+    {%- if pageType == "tools" %}
+    <div class="role-filter" data-role-filter>
+      <span class="role-filter__label">Filter by role</span>
+      <button class="role-pill" data-role="epi" aria-pressed="false">Epi</button>
+      <button class="role-pill" data-role="data" aria-pressed="false">Data</button>
+      <button class="role-pill" data-role="researcher" aria-pressed="false">Research</button>
+      <button class="role-pill" data-role="manager" aria-pressed="false">Manager</button>
+      <button class="role-pill" data-role="generalist" aria-pressed="false">General</button>
+    </div>
+    {%- endif %}
+
     <!-- Tier Accordions -->
     {%- if sectionData.tiers and sectionData.tiers.length > 1 %}
     {%- for tier in sectionData.tiers %}

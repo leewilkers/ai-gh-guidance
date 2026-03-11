@@ -5,12 +5,39 @@
   </summary>
   <div class="tier-body">
     <p class="capabilities__sub">{{ capabilities.subheading }}</p>
+
     <ul class="capabilities__list">
       {%- for item in capabilities.items %}
+        {%- if not item.tier or item.tier == "general" %}
       <li class="capabilities__item">
         <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.label }}</a>
         <span class="capabilities__source">{{ item.source }}</span>
       </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+
+    <p class="capabilities__tier-label">Social science and research</p>
+    <ul class="capabilities__list">
+      {%- for item in capabilities.items %}
+        {%- if item.tier == "research" %}
+      <li class="capabilities__item">
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.label }}</a>
+        <span class="capabilities__source">{{ item.source }}</span>
+      </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+
+    <p class="capabilities__tier-label">Global health</p>
+    <ul class="capabilities__list">
+      {%- for item in capabilities.items %}
+        {%- if item.tier == "global-health" %}
+      <li class="capabilities__item">
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.label }}</a>
+        <span class="capabilities__source">{{ item.source }}</span>
+      </li>
+        {%- endif %}
       {%- endfor %}
     </ul>
   </div>

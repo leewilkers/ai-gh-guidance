@@ -1,0 +1,50 @@
+/* ─── Tufte-Style Sidenotes ─── */
+
+.sidenote-toggle {
+  display: none;
+}
+
+.sidenote-number {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  vertical-align: super;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -35%;
+  width: 30%;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--muted);
+  padding-left: 1rem;
+  border-left: 1px solid var(--border);
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Mobile: collapse sidenotes to inline toggles */
+@media (max-width: 900px) {
+  .sidenote {
+    display: none;
+    float: none;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    background: var(--surface);
+    border-left: 2px solid var(--accent);
+    border-radius: 0 4px 4px 0;
+  }
+
+  .sidenote-toggle:checked + .sidenote {
+    display: block;
+  }
+
+  .sidenote-number {
+    cursor: pointer;
+  }
+}

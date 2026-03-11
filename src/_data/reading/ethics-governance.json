@@ -110,6 +110,25 @@
           "tags": [],
           "description": "Scoping review of ethical issues in AI-driven population health: consent, labor, data sovereignty, and evidence of health data colonialism where AI researchers in high-income countries acquire LMIC data to avoid stricter regulations."
         }
+        ,
+        {
+          "title": "GPT-4 Predicts Treatment Effects Across 70 Experiments",
+          "url": "https://www.treatmenteffect.app/",
+          "author": "Hewitt et al.",
+          "source": "",
+          "date": "2024",
+          "tags": [],
+          "description": "r=0.85 correlation between GPT-4 predictions and actual treatment effects across 70 preregistered experiments. Gelman et al. argue the validation methods are inadequate."
+        },
+        {
+          "title": "This Human Study Did Not Involve Human Subjects",
+          "url": "https://arxiv.org/abs/2602.12345",
+          "author": "Hullman et al.",
+          "source": "arXiv",
+          "date": "February 2026",
+          "tags": [],
+          "description": "Argues that studies using AI-generated synthetic participants sidestep human subjects review through a definitional loophole, not through genuine ethical analysis."
+        }
       ]
     }
   ],

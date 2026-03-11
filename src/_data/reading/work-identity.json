@@ -119,6 +119,25 @@
           "tags": [],
           "description": "How AI reshaped professional work in 2025. Tools integrated into daily workflows; expectations changed faster than policies."
         }
+        ,
+        {
+          "title": "The Hidden Cost of AI Anxiety",
+          "url": "https://www.springhealth.com/research/ai-anxiety-2026",
+          "author": "",
+          "source": "Spring Health",
+          "date": "2026",
+          "tags": [],
+          "description": "24% of employees report worse mental health from AI-related information overload. The most anxious employees use AI most — compliance-driven, not enthusiastic."
+        },
+        {
+          "title": "AI Replacement Dysfunction (AIRD): A Clinical Framework",
+          "url": "https://www.cureus.com/articles/aird-clinical-framework",
+          "author": "McNamara & Thornton",
+          "source": "Cureus",
+          "date": "2026",
+          "tags": [],
+          "description": "Clinical framework for psychological distress from AI-mediated professional displacement. Parallels between technology-driven job loss and identity disruption."
+        }
       ]
     }
   ],

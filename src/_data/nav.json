@@ -13,7 +13,9 @@
     { "id": "data-privacy", "number": 5, "label": "Data & Privacy", "url": "/guide/data-privacy/" },
     { "id": "work-life", "number": 6, "label": "AI & Work", "url": "/guide/work-life/" },
     { "id": "equity", "number": 7, "label": "Equity & Global Health", "url": "/guide/equity/" },
-    { "id": "org-policy", "number": 8, "label": "Organizational Policy", "url": "/guide/org-policy/" }
+    { "id": "org-policy", "number": 8, "label": "Organizational Policy", "url": "/guide/org-policy/" },
+    { "id": "org-adoption", "number": 9, "label": "Inside Your Organization", "url": "/guide/org-adoption/" },
+    { "id": "global-health-ai", "number": 10, "label": "AI in Global Health", "url": "/guide/global-health-ai/" }
   ],
   "reading": [
     { "id": "canon", "number": "I", "label": "Foundations", "url": "/reading/canon/" },

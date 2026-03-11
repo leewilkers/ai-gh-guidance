@@ -39,3 +39,52 @@
     });
   });
 })();
+
+// Role filtering — tools page only
+(function () {
+  var roleBar = document.querySelector('[data-role-filter]');
+  if (!roleBar) return;
+
+  var roleButtons = roleBar.querySelectorAll('[data-role]');
+  var activeRole = null;
+
+  function filterByRole() {
+    var cards = document.querySelectorAll('.resource-card[data-roles]');
+    cards.forEach(function (card) {
+      if (!activeRole) {
+        card.style.display = '';
+        card.classList.remove('is-dimmed');
+        return;
+      }
+
+      var cardRoles = (card.getAttribute('data-roles') || '').split(',');
+      if (cardRoles.indexOf(activeRole) !== -1) {
+        card.style.display = '';
+        card.classList.remove('is-dimmed');
+      } else {
+        card.classList.add('is-dimmed');
+        card.style.display = '';
+      }
+    });
+  }
+
+  roleButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var role = btn.getAttribute('data-role');
+      if (activeRole === role) {
+        activeRole = null;
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-pressed', 'false');
+      } else {
+        roleButtons.forEach(function (b) {
+          b.classList.remove('is-active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        activeRole = role;
+        btn.classList.add('is-active');
+        btn.setAttribute('aria-pressed', 'true');
+      }
+      filterByRole();
+    });
+  });
+})();

@@ -1,5 +1,6 @@
 <div class="resource-card" data-pagefind-index
-     {% if resource.tags %}data-tags="{{ resource.tags | join(',') }}"{% endif %}>
+     {% if resource.tags %}data-tags="{{ resource.tags | join(',') }}"{% endif %}
+     {% if resource.roles %}data-roles="{{ resource.roles | join(',') }}"{% endif %}>
   <p class="resource-card__title">
     <a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">{{ resource.title }}</a>
   </p>
@@ -11,6 +12,13 @@
   {%- endif %}
   {%- if resource.note %}
   <p class="resource-card__note">{{ resource.note }}</p>
+  {%- endif %}
+  {%- if resource.roles and resource.roles.length %}
+  <div class="resource-card__roles">
+    {%- for role in resource.roles %}
+    <span class="role-badge role-badge--{{ role }}">{{ role }}</span>
+    {%- endfor %}
+  </div>
   {%- endif %}
   {%- if resource.tags and resource.tags.length %}
   <div class="resource-card__tags">
